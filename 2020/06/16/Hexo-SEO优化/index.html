@@ -13,7 +13,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <title>
-    helloworld |  Hexo主题Ayer中文说明
+    hexo-seo优化技巧 |  Hexo主题Ayer中文说明
   </title>
   <meta name="generator" content="hexo-theme-ayer">
   
@@ -49,7 +49,7 @@
     <main class="content on">
       <section class="outer">
   <article
-  id="post-helloworld"
+  id="post-Hexo-SEO优化"
   class="article article-type-post"
   itemscope
   itemprop="blogPost"
@@ -60,22 +60,26 @@
     <header class="article-header">
        
 <h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  helloworld
+  hexo-seo优化技巧
 </h1>
  
 
     </header>
      
     <div class="article-meta">
-      <a href="/2020/08/11/helloworld/" class="article-date">
-  <time datetime="2020-08-11T05:47:14.000Z" itemprop="datePublished">2020-08-11</time>
-</a>   
+      <a href="/2020/06/16/Hexo-SEO%E4%BC%98%E5%8C%96/" class="article-date">
+  <time datetime="2020-06-16T14:32:38.000Z" itemprop="datePublished">2020-06-16</time>
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a>
+  </div>
+  
 <div class="word_count">
     <span class="post-time">
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">2</span>
+            <span class="post-count">448</span>
         </span>
     </span>
 
@@ -99,7 +103,47 @@
   
     <div class="article-entry" itemprop="articleBody">
        
-  <h4 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h4> 
+  <p>搭建的hexo博客如果不经过优化，在搜索引擎被收录的可能很小，SEO可以提高被搜到的几率</p>
+<p><a name="04ad26dd"></a></p>
+<h3 id="一-生成-sitemap-文件"><a href="#一-生成-sitemap-文件" class="headerlink" title="一. 生成 sitemap 文件"></a>一. 生成 sitemap 文件</h3><p>需要先安装两个 hexo 插件：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save        </span><br><span class="line">npm install hexo-generator-baidu-sitemap --save</span><br></pre></td></tr></table></figure>
+
+<p>打开配置文件<code>_config.yml</code>添加</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">sitemap:</span></span><br><span class="line">    <span class="attr">path:</span> <span class="string">sitemap.xml</span></span><br><span class="line"><span class="attr">baidusitemap:</span></span><br><span class="line">    <span class="attr">path:</span> <span class="string">baidusitemap.xml</span></span><br></pre></td></tr></table></figure>
+
+<p>再重启 hexo，在本地访问 <a href="">localhost:4000/sitemap.xml</a>和 <a href="">localhost:4000/baidusitemap.xml</a> 就能正确的展示出两个sitemap 文件了。</p>
+<a id="more"></a>
+
+<p><a name="0951f961"></a></p>
+<h3 id="二-推送到-谷歌-和-百度"><a href="#二-推送到-谷歌-和-百度" class="headerlink" title="二. 推送到 谷歌 和 百度"></a>二. 推送到 谷歌 和 百度</h3><p><a name="c58b62e5"></a></p>
+<h4 id="1-百度-→-添加个人网站"><a href="#1-百度-→-添加个人网站" class="headerlink" title="1. 百度 → 添加个人网站"></a>1. 百度 → <a target="_blank" rel="noopener" href="https://ziyuan.baidu.com/site/siteadd?siteurl=">添加个人网站</a></h4><p>添加文件方式不可行，hexo会处理html文件</p>
+<p>所以选择，在 head.ejs 里添加 html 标签</p>
+<p>1.1 <a target="_blank" rel="noopener" href="https://ziyuan.baidu.com/linksubmit/index">手动提交baidusitemap.xml</a>(里面也有自动提交的代码)</p>
+<p>1.2 可以用”抓取诊断”，手动-百度抓取</p>
+<p>1.3 Robots → 检测并更新</p>
+<p><a name="53dfa5ae"></a></p>
+<h4 id="2-谷歌-→-添加个人网站"><a href="#2-谷歌-→-添加个人网站" class="headerlink" title="2. 谷歌 → 添加个人网站"></a>2. 谷歌 → <a target="_blank" rel="noopener" href="https://search.google.com/search-console/welcome">添加个人网站</a></h4><p>类似百度 ，也是在 head.ejs 里添加 html 标签</p>
+<blockquote>
+<p>验证通过就好，过两天左右 百度和谷歌就能收录你的站点</p>
+</blockquote>
+<blockquote>
+<p>测试方式: (分别在 google 和 baidu 搜索)</p>
+</blockquote>
+<blockquote>
+<p>site: shen-yu.gitee.io</p>
+</blockquote>
+<p><a name="dc54d512"></a></p>
+<h5 id="2-1-手动提交sitemap，甚至是单个网站"><a href="#2-1-手动提交sitemap，甚至是单个网站" class="headerlink" title="2.1 手动提交sitemap，甚至是单个网站"></a>2.1 手动提交sitemap，甚至是单个网站</h5><p><a name="19cedad5"></a></p>
+<h5 id="GoogleSearchConsole-→-站点地图-→-输入sitemap-xml-→-提交"><a href="#GoogleSearchConsole-→-站点地图-→-输入sitemap-xml-→-提交" class="headerlink" title="GoogleSearchConsole → 站点地图 → 输入sitemap.xml → 提交"></a><a target="_blank" rel="noopener" href="https://search.google.com/search-console">GoogleSearchConsole</a> → 站点地图 → 输入sitemap.xml → 提交</h5><p><a name="39dffe8d"></a></p>
+<h5 id="2-2-robots配置"><a href="#2-2-robots配置" class="headerlink" title="2.2 robots配置"></a>2.2 robots配置</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">User-agent: *</span><br><span class="line">Allow: &#x2F;</span><br><span class="line">Allow: &#x2F;home&#x2F;</span><br><span class="line">Allow: &#x2F;archives&#x2F;</span><br><span class="line">Allow: &#x2F;about&#x2F;</span><br><span class="line">Disallow: &#x2F;vendors&#x2F;</span><br><span class="line">Disallow: &#x2F;js&#x2F;</span><br><span class="line">Disallow: &#x2F;css&#x2F;</span><br><span class="line">Disallow: &#x2F;fonts&#x2F;</span><br><span class="line">Disallow: &#x2F;vendors&#x2F;</span><br><span class="line">Disallow: &#x2F;fancybox&#x2F;</span><br><span class="line"></span><br><span class="line">Sitemap: http:&#x2F;&#x2F;yoursite&#x2F;sitemap.xml</span><br><span class="line">Sitemap: http:&#x2F;&#x2F;yoursite&#x2F;baidusitemap.xml</span><br></pre></td></tr></table></figure>
+
+<p>Allow表示允许被访问的，Disallow是不允许的意思。注意后面两个Sitemap就是网站地图了。而网站地图前面说了是给爬虫用的。这里配置在robots中。</p>
+<p><a name="c35bfb76"></a></p>
+<h5 id="2-3-测试"><a href="#2-3-测试" class="headerlink" title="2.3 测试"></a>2.3 测试</h5><p>旧版 GoogleSearchConsole 测试 robots.txt  是否配置好</p>
+<p>新版 GoogleSearchConsole 测试 sitemap.xml 是否配置好</p>
+<p><a name="3676c080"></a></p>
+<h3 id="三-定期清除死链接"><a href="#三-定期清除死链接" class="headerlink" title="三. 定期清除死链接"></a>三. 定期清除死链接</h3><p><a target="_blank" rel="noopener" href="https://www.google.com/webmasters/tools/removals">https://www.google.com/webmasters/tools/removals</a></p>
+ 
       <!-- reward -->
       
       <div id="reword-out">
@@ -167,21 +211,32 @@
     <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACK0lEQVR42u3ay44iMQwFUP7/p5ntjEak740BdaVOVgjVI4eFsWM/HvF6/rVefbO+fv3k9q7NhYGBcVnGc7kSxhqzfsurK/O9YWBg3IeRbKINxP/f1b4ruR4DAwMjCYI5dX19+0wMDAyMhDHZaJ6AYmBgYORFbF6g5ilmDntbLY6BgXFBRn7q/v3PH+lvYGBgXIrxLFfbgJw0PotdYWBgHM3IA9ykcM0L1HZEAwMDA2NSWCYhOw/HUbKIgYFxKGMvEcwbBvPCNXoXBgbG0YwkLWvDZdI2yBuTo6M3DAyMIxh5+EswefhOitXNaREMDIzjGJNA3G5octw2GrDAwMC4OGMvUH7nMG79ln/2g4GBcTQjH5hoD9cmAxZtAxUDA+POjL2HJongvIiNKnIMDIxDGXvTC3tDYHtN0OjsEAMD42jGJETuwfYanFFqiIGBcQSjvaE9hmt5eXDHwMC4D6NtJSal5rzEbcc7MDAw7sZoj97elQ62W6+LWAwMjCMYewlfG5TfFaBfDltgYGAczdgrLPfSu6IxmbcZMDAwbsBI2o1tulYPTEzeiIGBcSjjWa680M3HLJLU8IcfFwMD42jG22J2sN081H5w+AMDA+OyjEmQnbcWiibl+ifDwMC4AeP7B/p7aV8xM4KBgXF7RjuQ0eaqddMUAwMDo0zg2kO0tlH6kf8NDAyMX89Iitg8mZs0CfJSGQMD4z6MvHRcB9+9wNqG+1FTEwMD43qMP6OuYL4JQiL9AAAAAElFTkSuQmCC" alt="微信分享二维码">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACqUlEQVR42u3aS24CQQwFQO5/abJNFA082+0hkWpWEeHTNUjd5tmPR3w9v135c54XV/7a3895bFx4eHh4g6VfLSV5TvUGPYOr91o8PDy8e3hXC8o37vw9k+Umj0efi4eHh/fHeL1y+fX7Xz0TDw8P77/zku0+L6nzohwPDw/v7/CSOKC6rOqNyz9xJWvBw8PDm+au0ab8qb9X+nt4eHh44676/MDIS+0kdCivEA8PD2+B1xt4qsavvaK8V47j4eHhbfN6x0CvTfUaXw1qo1AYDw8Pb5l3Ktuo4idHS3kpeHh4eEd5ybKqbadJmyovuMslNR4eHt5R3rwNNhkvSMruPCDGw8PD2+NNWk05b97oyn8S/DgY8PDw8I7yTrWd8hbXZPigd7Tg4eHhneX1tt154DsPJsphBB4eHt5R3qlg4s4hg+hxPDw8vAVeddHNOr04uFBttuVfCR4eHt6cNy9q8+PkdYTRG9Iq3z88PDy8NV5va54U05MD6XI9eHh4eAu8auO/vDUXi+9eowsPDw/vTl6+xc9HDXoHw2gmAg8PD2+BN9m4J+OqOSOJMN68Dx4eHt5RXi9cyFtQ1YghHwUofG94eHh4a7zq2FNv6+8dFfntu0yp8fDw8G7kJf/Ny/H5iNXhgwEPDw+vNROVvHXvAOiFvHlgEZXseHh4eEd585g1b4NNRgeqXwAeHh7eHi8PF+aBQi/CODbUhYeHh3eI9yxeeWu/V0Anry004fDw8PAWePmVDxBMDpLJ+daE4eHh4bV4vZ/6SZu/F3BUy/o3oQYeHh7eGi8vZ08FtdWRhVEkgYeHh/ch3j0RQzVueHOM4eHh4X2U1xvGOlso52MKeHh4eNu8JIx4/Xi1HK9u981DBQ8PD2+BN/mpX40PqmXxZGQBDw8Pb4H3BY23Ayd8UyhWAAAAAElFTkSuQmCC" alt="微信分享二维码">
     </div>
 </div>
 
 <div id="share-mask"></div>  
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%8A%80%E6%9C%AF/" rel="tag">技术</a></li></ul>
+
     </footer>
   </div>
 
    
   <nav class="article-nav">
     
+      <a href="/2020/07/16/%E7%BD%91%E7%AB%99%E6%90%AC%E5%AE%B6%E8%AE%B0%E5%BD%95/" class="article-nav-link">
+        <strong class="article-nav-caption">上一篇</strong>
+        <div class="article-nav-title">
+          
+            网站搬家记录
+          
+        </div>
+      </a>
     
-      <a href="/2020/08/11/hello-world/" class="article-nav-link">
+    
+      <a href="/2020/05/27/%E7%94%9F%E6%B4%BB%E6%9D%82%E8%AE%B0/" class="article-nav-link">
         <strong class="article-nav-caption">下一篇</strong>
-        <div class="article-nav-title"></div>
+        <div class="article-nav-title">生活杂记</div>
       </a>
     
   </nav>
