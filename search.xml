@@ -1,134 +1,136 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Ayer中文说明</title>
-    <url>/chenxijia.githup.io/2019/12/03/Ayer%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\chenxijia.githup.io\assets\css\APlayer.min.css"><script src="\chenxijia.githup.io\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\chenxijia.githup.io\assets\js\Meting.min.js"></script><h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><blockquote>
-<p><a href="https://github.com/Shen-Yu/hexo-theme-ayer">Ayer</a> 是一个干净且优雅的Hexo主题，自带响应式，加载速度很快，该有的功能都有，可配置项很多，非常适合作为你的博客主题，主题内还附送了6张精美的高清壁纸。欢迎使用和Star支持，如果你在使用过程中有任何疑问或者建议，欢迎联系我！如果你的博客采用了本主题，欢迎在下面评论区留下地址~</p>
+    <title>GIT工作流程、安装教程、常用命令</title>
+    <url>/chenxijia.githup.io/2020/08/12/Ayer%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\chenxijia.githup.io\assets\css\APlayer.min.css"><script src="\chenxijia.githup.io\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\chenxijia.githup.io\assets\js\Meting.min.js"></script><h1 id="一-GIT工作流程"><a href="#一-GIT工作流程" class="headerlink" title="一.GIT工作流程"></a>一.GIT工作流程</h1><blockquote>
+<p>一般工作流程如下：<br>1．从远程仓库中克隆 Git 资源作为本地仓库。<br>2．从本地仓库中 checkout 代码然后进行代码修改<br>3．在提交前先将代码提交到暂存区。<br>4．提交修改。提交到本地仓库。本地仓库中保存修改的各个历史版本。<br>5．在修改完成后，需要和团队成员共享代码时，可以将代码 push 到远程仓库。</p>
 </blockquote>
-<p><a href="https://github.com/Shen-Yu/hexo-theme-ayer">Ayer</a> 在马来语中是“水”的意思，在西班牙语中是“昨天”的意思。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Shen-Yu/cdn/picgo/ayer.jpg" alt="hexo-theme-ayer"></p>
-<p><a href="https://github.com/Shen-Yu/hexo-theme-ayer">GitHub地址</a></p>
-<p><a href="https://gitee.com/shen-yu/hexo-theme-ayer">国内镜像</a></p>
-<p><a href="https://shen-yu.gitee.io/">效果预览</a></p>
-<p><a href="https://shen-yu.gitee.io/2019/ayer/">中文说明</a></p>
-<a id="more"></a>
-
-<h1 id="特性"><a href="#特性" class="headerlink" title="特性"></a>特性</h1><ol>
-<li>干净且优雅，文章内容美观易读</li>
-<li>首页封面全屏平铺，扁平化设计，简洁又不失高大上</li>
-<li>响应式设计，博客在桌面端、平板、手机等设备上均能很好的展现</li>
-<li>首页封面和文案可以任意更换，主题内附送6张精美高清壁纸</li>
-<li>时间轴式的归档页</li>
-<li>支持 <code>黑夜阅读</code> 模式</li>
-<li>侧边栏可以点击显示或隐藏</li>
-<li>支持文章置顶和文章打赏</li>
-<li>支持文章字数和阅读时长统计</li>
-<li>支持网易云音乐播放</li>
-<li>支持 <code>MathJax</code> 和 <code>Katex</code> 数学公式</li>
-<li><code>TOC</code> 目录在文章页悬浮，跳转更方便</li>
-<li>可设置阅读文章时做密码验证<a href="https://github.com/MikeCoder/hexo-blog-encrypt/blob/master/ReadMe.zh.md">hexo-blog-encrypt</a></li>
-<li><a href="https://valine.js.org/">Valine</a>和<a href="https://gitalk.github.io/">Gitalk</a>评论模块（推荐配合<code>leancloud</code>使用 <code>Valine</code>）</li>
-<li>集成了不蒜子、百度统计、Google Analytics、CNZZ等统计功能</li>
-<li>支持Github Ribbons</li>
-</ol>
-<p>如果想体验手机端浏览效果，可以扫一下二维码：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Shen-Yu/cdn/picgo/mobile_ayer.jpg" alt="手机端效果"></p>
-<h1 id="多语言支持"><a href="#多语言支持" class="headerlink" title="多语言支持"></a>多语言支持</h1><p>zh-CN（中文简体） en（English） zh-TW（中文繁体） ja（Japanese） es（Spanish） de（German） fr（French） ru（Russian） ko（Korean） vi（Vietnamese） nl（Dutch） no（Norwegian） pt（Portuguese）</p>
-<p>默认语言是英语，把博客目录下的_config文件里的<code>language</code>修改成以上简写即可更换语言。</p>
-<h1 id="打赏"><a href="#打赏" class="headerlink" title="打赏"></a>打赏</h1><p>本主题完全开源且免费，目前由我一个人维护，如果你觉得主题不错，你可以选择继续白嫖，也可以选择适当打赏我，不在于金额多少，而是能让我更有动力去维护这个主题。打赏请备注说明，谢谢~</p>
-<div style="width:100%;text-align:center;font-weight:bold">
-<span style="width:30%;display:inline-block">
-微信
-<img src="https://cdn.jsdelivr.net/gh/Shen-Yu/cdn/picgo/wechatpay.png" alt="wechat" style="width:100%"></span>
-<span style="width:30%;;display:inline-block">
-支付宝
-<img src="https://cdn.jsdelivr.net/gh/Shen-Yu/cdn/picgo/alipay.jpg" alt="alipay" style="width:100%"></span>
-</div>
-
-<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 国内用户如果速度较慢，可以把github地址替换为：https://gitee.com/mirrors/ayer.git</span></span><br><span class="line">git <span class="built_in">clone</span> https://github.com/Shen-Yu/hexo-theme-ayer.git themes/ayer</span><br></pre></td></tr></table></figure>
-
-<h1 id="修改"><a href="#修改" class="headerlink" title="修改"></a>修改</h1><p>将博客根目录下的 <code>_config.yml</code> 里的 <code>theme</code> 值修改成 <code>ayer</code></p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">ayer</span></span><br></pre></td></tr></table></figure>
-
-<h1 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h1><p>更新主题可能会覆盖你之前改动过的config文件，建议先把<code>config.yml</code>里的配置备份一下，然后删掉ayer目录后重新<code>git clone</code>下载主题，再把配置复制进去。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> themes/ayer</span><br><span class="line">git pull</span><br></pre></td></tr></table></figure>
-
-<h1 id="主题配置"><a href="#主题配置" class="headerlink" title="主题配置"></a>主题配置</h1><p>以下是ayer主题目录下的 <code>_config.yml</code>文件配置，请先确保你已经读过<a href="https://hexo.io/zh-cn/docs/">Hexo文档</a>。如果你在配置过程中有问题，请先擅用 <a href="https://cn.bing.com/">搜索引擎</a>。如果你搜不到解决方法，你可以参考：<a href="https://gitee.com/shen-yu/shen-yu/tree/dev/">我的博客源码</a>，按照我的一模一样配肯定是不会有问题的。如果对部分字体或颜色等有定制需求，请自行在css文件进行修改，主题本身已经很符合审美，自定义配置项也很多，不建议改得花里胡哨，过大的字体和库都会影响博客加载速度。如果还有问题或者建议，那么请在评论区给我留言~</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 侧边栏菜单</span></span><br><span class="line"><span class="attr">menu:</span></span><br><span class="line">  <span class="string">主页:</span> <span class="string">/</span></span><br><span class="line">  <span class="string">归档:</span> <span class="string">/archives</span></span><br><span class="line">  <span class="string">分类:</span> <span class="string">/categories</span></span><br><span class="line">  <span class="string">标签:</span> <span class="string">/tags</span></span><br><span class="line">  <span class="string">摄影:</span> <span class="string">http://shenyu-vip.lofter.com</span></span><br><span class="line">  <span class="string">旅行:</span> <span class="string">/tags/旅行/</span></span><br><span class="line">  <span class="string">关于我:</span> <span class="string">/2019/about</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 站点次标题和打字动效</span></span><br><span class="line"><span class="comment"># https://github.com/mattboldt/typed.js</span></span><br><span class="line"><span class="attr">subtitle:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span>  <span class="comment"># 是否开启动效</span></span><br><span class="line">  <span class="attr">text:</span> <span class="string">面朝大海，春暖花开</span>  <span class="comment"># 显示的文字</span></span><br><span class="line">  <span class="attr">text2:</span> <span class="string">愿你一生努力，一生被爱</span>   <span class="comment"># 滚动播放，如果不需要可以留空</span></span><br><span class="line">  <span class="attr">text3:</span> <span class="string">想要的都拥有，得不到的都释怀</span>  <span class="comment"># 最多支持三段文字</span></span><br><span class="line">  <span class="attr">startDelay:</span> <span class="number">0</span>   <span class="comment"># 延迟时间</span></span><br><span class="line">  <span class="attr">typeSpeed:</span> <span class="number">200</span>  <span class="comment"># 打字速度</span></span><br><span class="line">  <span class="attr">loop:</span> <span class="literal">true</span>  <span class="comment"># 是否循环</span></span><br><span class="line">  <span class="attr">backSpeed:</span> <span class="number">100</span>  <span class="comment"># 回退速度</span></span><br><span class="line">  <span class="attr">showCursor:</span> <span class="literal">true</span>  <span class="comment"># 是否显示光标</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 网站图标和侧边栏logo</span></span><br><span class="line"><span class="attr">favicon:</span> <span class="string">/favicon.ico</span></span><br><span class="line"><span class="attr">logo:</span> <span class="string">/images/ayer-side.svg</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 封面配置</span></span><br><span class="line"><span class="comment"># enable-是否启用封面；path-封面背景图；logo-封面logo</span></span><br><span class="line"><span class="attr">cover:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">/images/cover1.jpg</span>  <span class="comment"># /source/images目录下附送多张精美壁纸，可任意更换</span></span><br><span class="line">  <span class="attr">logo:</span> <span class="string">/images/ayer.svg</span>  <span class="comment"># 如果不要直接设置成false</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 页面顶部进度条  </span></span><br><span class="line"><span class="attr">progressBar:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 网易云音乐插件</span></span><br><span class="line"><span class="attr">music:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># 播放器尺寸类型(1：小尺寸、2：大尺寸)</span></span><br><span class="line">  <span class="attr">type:</span> <span class="number">1</span></span><br><span class="line">  <span class="attr">id:</span> <span class="number">518895142</span>  <span class="comment"># 网易云分享的音乐ID(更换音乐请更改此配置项)</span></span><br><span class="line">  <span class="attr">autoPlay:</span> <span class="literal">true</span>  <span class="comment"># 是否开启自动播放</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 文章配置</span></span><br><span class="line"><span class="comment"># 文章太长，截断按钮文字(在需要截断的行增加此标记：&lt;!--more--&gt;)</span></span><br><span class="line"><span class="attr">excerpt_link:</span> <span class="string">阅读更多...</span></span><br><span class="line"><span class="comment"># 如果你嫌每篇文章手动加more标记比较麻烦，又不想在首页全文显示，可以把excerpt_all设置成true，这样首页只会显示文章归档</span></span><br><span class="line"><span class="attr">excerpt_all:</span> <span class="literal">false</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 是否开启代码复制按钮</span></span><br><span class="line"><span class="attr">copy_btn:</span> <span class="literal">true</span></span><br><span class="line"><span class="comment"># 是否开启文章分享按钮</span></span><br><span class="line"><span class="attr">share_enable:</span> <span class="literal">true</span></span><br><span class="line"><span class="comment"># 国内的社交平台(If you are not in China, maybe you prefer to set:false)</span></span><br><span class="line"><span class="attr">share_china:</span> <span class="literal">true</span></span><br><span class="line"><span class="comment"># 文章分享文字</span></span><br><span class="line"><span class="attr">share_text:</span> <span class="string">分享</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 分页文字</span></span><br><span class="line"><span class="attr">nav_text:</span></span><br><span class="line">  <span class="attr">page_prev:</span> <span class="string">上一页</span></span><br><span class="line">  <span class="attr">page_next:</span> <span class="string">下一页</span></span><br><span class="line">  <span class="attr">post_prev:</span> <span class="string">上一篇</span></span><br><span class="line">  <span class="attr">post_next:</span> <span class="string">下一篇</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 文章页是否显示目录</span></span><br><span class="line"><span class="attr">toc:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 文章中的图片是否支持点击放大</span></span><br><span class="line"><span class="attr">image_viewer:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># https://github.com/willin/hexo-wordcount</span></span><br><span class="line"><span class="comment"># 是否开启字数统计(关闭请设置enable为false)</span></span><br><span class="line"><span class="comment"># 也可以单独在md文件里Front-matter设置`no_word_count: true`属性，来自定义关闭字数统计</span></span><br><span class="line"><span class="attr">word_count:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># 只在文章详情显示(不在首页显示)</span></span><br><span class="line">  <span class="attr">only_article_visit:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 打赏</span></span><br><span class="line"><span class="comment"># 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-默认开启所有文章均有打赏，如果有些文章你不需要，请在文章对应的md文件里设置no_reward:true</span></span><br><span class="line"><span class="attr">reward_type:</span> <span class="number">1</span></span><br><span class="line"><span class="comment"># 打赏wording</span></span><br><span class="line"><span class="attr">reward_wording:</span> <span class="string">&#x27;请我喝杯咖啡吧~&#x27;</span></span><br><span class="line"><span class="comment"># 支付宝二维码图片地址，跟你设置logo的方式一样。比如：/images/alipay.jpg</span></span><br><span class="line"><span class="attr">alipay:</span> <span class="string">/images/alipay.jpg</span></span><br><span class="line"><span class="comment"># 微信二维码图片地址</span></span><br><span class="line"><span class="attr">weixin:</span> <span class="string">/images/wechat.jpg</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 版权声明</span></span><br><span class="line"><span class="comment"># 版权声明type设定：0-关闭版权声明； 1-文章对应的md文件里有copyright: true属性，才有版权声明； 2-所有文章均有版权声明</span></span><br><span class="line"><span class="attr">copyright_type:</span> <span class="number">2</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 是否启用搜索</span></span><br><span class="line"><span class="attr">search:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># RSS订阅(先安装hexo-generator-feed插件，再去博客根目录config进行配置)</span></span><br><span class="line"><span class="comment"># 不想显示可以直接留空</span></span><br><span class="line"><span class="attr">rss:</span> <span class="string">/atom.xml</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 是否启用黑夜模式开关</span></span><br><span class="line"><span class="attr">darkmode:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 动态背景效果: 0-关闭，1-动态线条(跟随鼠标)</span></span><br><span class="line"><span class="attr">canvas_bg:</span> <span class="number">0</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 自定义鼠标样式，直接替换/images/mouse.cur文件</span></span><br><span class="line"><span class="attr">mouse:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">/images/mouse.cur</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 鼠标点击效果：0-关闭，1-爱心，2-爆炸烟花，3-粒子烟花</span></span><br><span class="line"><span class="attr">click_effect:</span> <span class="number">0</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 页面宽度自定义（不建议修改，可能造成布局混乱），article_width文章宽度，sidebar_width侧边栏宽度</span></span><br><span class="line"><span class="attr">layout:</span></span><br><span class="line">  <span class="attr">article_width:</span> <span class="string">80rem</span></span><br><span class="line">  <span class="attr">sidebar_width:</span> <span class="string">8rem</span></span><br><span class="line">  </span><br><span class="line"><span class="comment"># 评论：1、Valine(推荐)；2、Gitalk</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 1、Valine[一款快速、简洁且高效的无后端评论系统](https://github.com/xCss/Valine)</span></span><br><span class="line"><span class="comment"># 启用Valine必须先创建leancloud应用， 注册账号后获取 id|key 填入即可</span></span><br><span class="line"><span class="attr">leancloud:</span>  </span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">app_id:</span> <span class="comment">#</span></span><br><span class="line">  <span class="attr">app_key:</span> <span class="comment">#</span></span><br><span class="line"><span class="comment"># Valine配置(如果有些文章你想关闭评论，请在文章对应的md文件里设置no_valine:true)</span></span><br><span class="line"><span class="attr">valine:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span> <span class="comment"># 是否启用</span></span><br><span class="line">  <span class="attr">verify:</span> <span class="literal">false</span> <span class="comment"># 是否开启防垃圾评论验证</span></span><br><span class="line">  <span class="attr">notify:</span> <span class="literal">false</span> <span class="comment"># 是否开启邮件提醒(https://valine.js.org/notify.html)</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="string">mp</span> <span class="comment"># 头像样式(https://valine.js.org/avatar.html)</span></span><br><span class="line">  <span class="attr">placeholder:</span> <span class="string">给我的文章加点评论吧~</span> <span class="comment"># placeholder</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 2、Gitalk(https://github.com/gitalk/gitalk)</span></span><br><span class="line"><span class="attr">gitalk:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span> <span class="comment"># true</span></span><br><span class="line">  <span class="attr">clientID:</span> <span class="comment"># GitHub Application Client ID</span></span><br><span class="line">  <span class="attr">clientSecret:</span> <span class="comment"># Client Secret</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="comment"># Repository name</span></span><br><span class="line">  <span class="attr">owner:</span> <span class="comment"># GitHub ID</span></span><br><span class="line">  <span class="attr">admin:</span> <span class="comment"># GitHub ID</span></span><br><span class="line">  </span><br><span class="line"><span class="comment"># GitHub Ribbons-封面右上角的forkme，换样式直接在source/images目录下替换forkme图片</span></span><br><span class="line"><span class="attr">github:</span> </span><br><span class="line">  <span class="comment"># (关闭请设置为false)</span></span><br><span class="line">  <span class="attr">url:</span> <span class="string">https://github.com/Shen-Yu/hexo-theme-ayer</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># fancybox(仅用于相册展示，若需要可配置albums)</span></span><br><span class="line"><span class="attr">fancybox:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 访问量统计(不蒜子)</span></span><br><span class="line"><span class="attr">busuanzi:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 友盟cnzz统计(url填js代码src链接)</span></span><br><span class="line"><span class="attr">cnzz:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">url:</span> <span class="comment">#</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Google Analytics</span></span><br><span class="line"><span class="attr">google_analytics:</span> <span class="string">&#x27;&#x27;</span></span><br><span class="line"><span class="comment"># 百度统计</span></span><br><span class="line"><span class="attr">baidu_analytics:</span> <span class="string">&#x27;&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Mathjax数学公式</span></span><br><span class="line"><span class="attr">mathjax:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Katex数学公式(allpost设置为false时只有头部设置math:true的文章才开启)</span></span><br><span class="line"><span class="comment"># 需要更换hexo渲染器，npm un hexo-renderer-marked -S &amp;&amp; npm i hexo-renderer-markdown-it-katex -S</span></span><br><span class="line"><span class="attr">katex:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span> <span class="comment"># true</span></span><br><span class="line">  <span class="attr">allpost:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">copy_tex:</span> <span class="literal">false</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 网站成立年份(默认为 2019，若填入年份小于当前年份，则显示为 2018-2019 类似的格式)</span></span><br><span class="line"><span class="attr">since:</span> <span class="number">2019</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#是否显示页脚信息(建议保留，有助于本主题的推广)</span></span><br><span class="line"><span class="attr">pageFooter:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#ICP备案信息尾部显示</span></span><br><span class="line"><span class="attr">icp:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">url:</span> <span class="string">&#x27;http://www.beian.miit.gov.cn/&#x27;</span> <span class="comment"># 备案链接</span></span><br><span class="line">  <span class="attr">text:</span> <span class="string">&#x27;浙ICP备88888888&#x27;</span> <span class="comment"># 备案信息</span></span><br></pre></td></tr></table></figure>
-
-
-<h2 id="插件-必需"><a href="#插件-必需" class="headerlink" title="插件(必需)"></a>插件(必需)</h2><ul>
-<li><p><a href="https://github.com/theme-next/hexo-generator-searchdb">hexo-generator-searchdb</a> 用于搜索</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">npm</span> <span class="string">install</span> <span class="string">hexo-generator-searchdb</span> <span class="string">--save</span></span><br></pre></td></tr></table></figure>
-<p>然后将以下配置复制到你博客根目录下的 <code>_config.yml</code> 里（注意不是ayer目录下的）:</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># hexo-generator-searchdb</span></span><br><span class="line"><span class="attr">search:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">search.xml</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">post</span></span><br><span class="line">  <span class="attr">format:</span> <span class="string">html</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p><a href="https://github.com/hexojs/hexo-generator-feed">hexo-generate-feed</a> 用于生成RSS订阅</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">npm</span> <span class="string">install</span> <span class="string">hexo-generator-feed</span> <span class="string">--save</span></span><br></pre></td></tr></table></figure>
-
-<p>  然后将以下配置复制到你博客根目录下的 <code>_config.yml</code> 里（注意不是ayer目录下的）:</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">feed:</span></span><br><span class="line">    <span class="attr">type:</span> <span class="string">atom</span></span><br><span class="line">    <span class="attr">path:</span> <span class="string">atom.xml</span></span><br><span class="line">    <span class="attr">limit:</span> <span class="number">20</span></span><br><span class="line">    <span class="attr">hub:</span></span><br><span class="line">    <span class="attr">content:</span></span><br><span class="line">    <span class="attr">content_limit:</span> <span class="number">140</span></span><br><span class="line">    <span class="attr">content_limit_delim:</span> <span class="string">&#x27; &#x27;</span></span><br><span class="line">    <span class="attr">order_by:</span> <span class="string">-date</span>    </span><br></pre></td></tr></table></figure>
-
-</li>
-</ul>
-<h2 id="插件-可选"><a href="#插件-可选" class="headerlink" title="插件(可选)"></a>插件(可选)</h2><ul>
-<li><p><a href="https://github.com/netcan/hexo-generator-index-pin-top">hexo-generator-index-pin-top</a> 用于文章置顶</p>
-</li>
-<li><p><a href="https://github.com/MikeCoder/hexo-blog-encrypt/blob/master/ReadMe.zh.md">hexo-blog-encrypt</a> 用于文章加密</p>
-</li>
-<li><p><a href="https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md">hexo-tag-aplayer</a> 用于播放音乐</p>
-</li>
-<li><p><a href="https://github.com/MoePlayer/hexo-tag-dplayer">hexo-tag-dplayer</a> 用于播放视频</p>
-</li>
-<li><p><a href="https://github.com/EYHN/hexo-helper-live2d/blob/master/README.zh-CN.md">hexo-helper-live2d</a> 二次元看板娘</p>
-</li>
-</ul>
-<p>更多插件请见 <a href="https://hexo.io/plugins/">hexo插件市场</a></p>
-<h2 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new page categories</span><br></pre></td></tr></table></figure>
-<p>然后将以下复制到/source/categories/index.md文件</p>
-<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: categories</span><br><span class="line">type: &quot;categories&quot;</span><br><span class="line">layout: &quot;categories&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-
-<h2 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new page tags</span><br></pre></td></tr></table></figure>
-<p>配置同分类一样</p>
-<h2 id="相册"><a href="#相册" class="headerlink" title="相册"></a>相册</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new page photos</span><br></pre></td></tr></table></figure>
-<p>然后将以下复制到/source/photos/index.md文件，img_url替换成图片路径，caption替换成图片名称</p>
-<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Gallery</span><br><span class="line"></span><br><span class="line">albums: [</span><br><span class="line"><span class="code">        [&quot;img_url&quot;,&quot;img_caption&quot;],</span></span><br><span class="line"><span class="code">        [&quot;img_url&quot;,&quot;img_caption&quot;]</span></span><br><span class="line"><span class="code">        ]</span></span><br><span class="line"><span class="code">---</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="文章目录"><a href="#文章目录" class="headerlink" title="文章目录"></a>文章目录</h2><p>用Tocbot解析文章标题并生成目录</p>
-<ul>
-<li><p>将以下配置复制到你ayer目录下的 <code>_config.yml</code> 里：</p>
-  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Toc</span></span><br><span class="line"> toc: <span class="literal">true</span></span><br></pre></td></tr></table></figure></li>
-<li><p>当然你可能并不想所有文章都生成悬浮目录，你可以在文章顶部的配置中加一行来进行关闭：</p>
-  <figure class="highlight md"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">no<span class="emphasis">_toc: true</span></span><br><span class="line"><span class="emphasis">---</span></span><br></pre></td></tr></table></figure>
-
-</li>
-</ul>
-<hr>
-<h1 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h1><h2 id="一-本地图片引用了却无法显示"><a href="#一-本地图片引用了却无法显示" class="headerlink" title="一.本地图片引用了却无法显示"></a>一.本地图片引用了却无法显示</h2><blockquote>
-<p>插入图片的两种方法：1.引用图床，2.引用本地图片。为了防止路径出错，建议使用图床。</p>
+<p>下图展示了 Git 的工作流程：</p>
+<p>clonepushpull:fetch+mergecheckoutaddcommit远程仓库本地仓库工作区暂存区</p>
+<h1 id="二-GIT安装教程"><a href="#二-GIT安装教程" class="headerlink" title="二.GIT安装教程"></a>二.GIT安装教程</h1><blockquote>
+<p>官网下载安装包：<a href="https://git-scm.com/download">https://git-scm.com/download</a></p>
 </blockquote>
-<h3 id="1-图床"><a href="#1-图床" class="headerlink" title="1.图床"></a>1.图床</h3><p>推荐使用：<a href="https://sm.ms/">SM.MS</a>，<a href="https://www.superbed.cn/">聚合图床</a></p>
-<h3 id="2-本地图片"><a href="#2-本地图片" class="headerlink" title="2.本地图片"></a>2.本地图片</h3><p>参照 <a href="https://hexo.io/zh-cn/docs/asset-folders">Hexo文档</a>，然后用这种方式引用图片：</p>
-<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% asset<span class="emphasis">_img image.jpg [title] %&#125;</span></span><br></pre></td></tr></table></figure>
-
-<p>如果还是无法显示，请尝试在文章里用html的img标签来引用本地图片。</p>
-<h2 id="二-可以启动但是样式变形了"><a href="#二-可以启动但是样式变形了" class="headerlink" title="二.可以启动但是样式变形了"></a>二.可以启动但是样式变形了</h2><p>这很可能是因为你把博客部署到了服务器子目录，导致静态资源加载的路径不对，在此强烈建议你部署到根目录，github和码云都支持根目录部署，只要你把仓库名搞成和用户名一样就行了。</p>
-<h2 id="三-点击侧边栏页面无法显示"><a href="#三-点击侧边栏页面无法显示" class="headerlink" title="三.点击侧边栏页面无法显示"></a>三.点击侧边栏页面无法显示</h2><p>原因：ayer主题目录下的 <code>config.yml</code> 里menu属性的路径不对，这需要你根据页面路径手动配置。</p>
-<p>以我的博客为例：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">menu:</span></span><br><span class="line">  <span class="string">主页:</span> <span class="string">/</span></span><br><span class="line">  <span class="string">归档:</span> <span class="string">/archives</span></span><br><span class="line">  <span class="string">分类:</span> <span class="string">/categories</span></span><br><span class="line">  <span class="string">标签:</span> <span class="string">/tags</span></span><br><span class="line">  <span class="string">旅行:</span> <span class="string">/tags/旅行/</span></span><br><span class="line">  <span class="string">摄影:</span> <span class="string">http://shenyu-vip.lofter.com</span></span><br><span class="line">  <span class="string">关于我:</span> <span class="string">/2019/about</span></span><br></pre></td></tr></table></figure>
-
-<p>上面的<code>归档/archives</code>是固定的，你不需要修改，<code>标签</code>和<code>分类</code>都需要手动创建目录，<code>旅行</code>实际上就是一个标签页，当你在文章头部设置tags属性后就会自动生成，<code>摄影</code>是一个站外的绝对路径，<code>关于我</code>实际上就是一个正常的文章页。好了，现在一个侧边栏导航就已经配置好了。</p>
-<h2 id="四-为什么修改了配置却没有效果"><a href="#四-为什么修改了配置却没有效果" class="headerlink" title="四.为什么修改了配置却没有效果"></a>四.为什么修改了配置却没有效果</h2><p>建议每次生成站点或部署之前都用 <code>hexo clean</code> 命令清理一下缓存，另外你可能还需要刷新一下。</p>
-<h2 id="五-怎么修改大标题和站点信息"><a href="#五-怎么修改大标题和站点信息" class="headerlink" title="五.怎么修改大标题和站点信息"></a>五.怎么修改大标题和站点信息</h2><p>站点配置文件<code>_config.yml</code>是hexo站点根目录下的主配置文件(还不知道是哪里的，自己google)，注意：别和<code>ayer</code>主题目录下的<code>_config.yml</code>搞混了。</p>
-<p>修改网站各种资料，例如标题、副标题和邮箱等个人资料，请修改站点根目录下的<code>_config.yml</code></p>
-<p>以我的博客为例：<br><img src="https://pic.downk.cc/item/5e75c69c9d7d586a54cf119d.jpg"></p>
-<h2 id="六-怎么添加百度或谷歌统计"><a href="#六-怎么添加百度或谷歌统计" class="headerlink" title="六.怎么添加百度或谷歌统计"></a>六.怎么添加百度或谷歌统计</h2><h3 id="百度统计"><a href="#百度统计" class="headerlink" title="百度统计"></a>百度统计</h3><p>在ayer的config配置里的<code>baidu_analytics</code>填上百度统计代码中的hm.js问好后面那一串东西</p>
-<h3 id="谷歌统计"><a href="#谷歌统计" class="headerlink" title="谷歌统计"></a>谷歌统计</h3><p>在ayer的config配置里的<code>google_analytics</code>填上谷歌统计代码的跟踪ID，即UA值(包含UA)</p>
-<h2 id="七-怎么查看文章的访问量"><a href="#七-怎么查看文章的访问量" class="headerlink" title="七.怎么查看文章的访问量"></a>七.怎么查看文章的访问量</h2><p>在ayer的config配置里有<code>busuanzi</code>选项，默认设置为<code>enable:true</code>，就开启了站点访问量的统计，站点尾部左下角的<code>PV</code>代表了当前页的访问次数，<code>UV</code>代表了当前站点的访问人数。注意：不蒜子统计是根据当前域名来统计的，你在本地启动的时候由于是localhost，所以数字会很大，部署到线上之后就会根据域名重新统计。</p>
-<h2 id="八-网易云音乐无法播放"><a href="#八-网易云音乐无法播放" class="headerlink" title="八.网易云音乐无法播放"></a>八.网易云音乐无法播放</h2><p>这是由于网易云音乐对部分歌曲做了版权限制，你可以多换几首试试，配置文件里的默认歌曲 <code>潮鳴り</code> 是可以播放的。如果你动手能力强，也可以试试音乐播放插件 <a href="https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md">hexo-tag-aplayer</a>，配合<code>MetingJS</code>可以支持对于 QQ音乐、网易云、虾米、酷狗、百度等平台的音乐播放。</p>
-<h2 id="九-分享链接无法打开"><a href="#九-分享链接无法打开" class="headerlink" title="九.分享链接无法打开"></a>九.分享链接无法打开</h2><p>你需要在根目录下的_config.yml文件中把url配置成部署后的域名。</p>
-<h2 id="十-怎么让搜索引擎收录站点"><a href="#十-怎么让搜索引擎收录站点" class="headerlink" title="十.怎么让搜索引擎收录站点"></a>十.怎么让搜索引擎收录站点</h2><p>参考：<a href="/2020/hexo-seo">Hexo站点SEO优化技巧</a></p>
+<p><img src="https://img-blog.csdnimg.cn/20190811035608990.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MTk4OTc3NQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>一路“下一步”即可</p>
+<h1 id="三-GIT常用命令"><a href="#三-GIT常用命令" class="headerlink" title="三.GIT常用命令"></a>三.GIT常用命令</h1><p>1 初始化版本库</p>
+<blockquote>
+<p>$ git init</p>
+</blockquote>
+<p>2 将文件添加到仓库（即由工作区添加到暂存区）</p>
+<blockquote>
+<p>$ git add 要添加的文件名</p>
+</blockquote>
+<p>3 将文件提交到仓库（即将暂存区中的文件一次提交到本地仓库）</p>
+<blockquote>
+<p>$ git commit -m “提交信息”</p>
+</blockquote>
+<blockquote>
+<p>$ git commit -a -m “提交信息” 等价于 $ git add + $git commit</p>
+</blockquote>
+<p>4 查看仓库状态</p>
+<blockquote>
+<p>$ git status</p>
+</blockquote>
+<p>5 查看提交历史</p>
+<blockquote>
+<p>$ git log （按Q退出）</p>
+</blockquote>
+<p>6 查看分支合并图</p>
+<blockquote>
+<p>$ git log —-graph</p>
+</blockquote>
+<p>7 回退到上一版本</p>
+<blockquote>
+<p>$ git reset –hard HEAD^</p>
+</blockquote>
+<p>8 查看命令历史</p>
+<blockquote>
+<p>$ git reflog</p>
+</blockquote>
+<p>9 恢复到指定版本</p>
+<blockquote>
+<p>$ git reset –hard commit_id</p>
+</blockquote>
+<p>10 查看修改内容</p>
+<blockquote>
+<p>$ git diff HEAD</p>
+</blockquote>
+<p>11 查看文件内容</p>
+<blockquote>
+<p>$ git cat 文件名</p>
+</blockquote>
+<p>12 创建分支</p>
+<blockquote>
+<p>$ git branch</p>
+</blockquote>
+<p>13 切换分支</p>
+<blockquote>
+<p>$ git checkout 分支名</p>
+</blockquote>
+<p>14 创建分支并切换到该分支</p>
+<blockquote>
+<p>$ git checkout -b 分支名</p>
+</blockquote>
+<p>15 丢弃工作区的修改</p>
+<blockquote>
+<p>$ git checkout –文件名<br>一种是文件自修改后还没有被放到暂存区，现在，撤销修改就回到和版本库一模一样的状态；<br>一种是文件已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态。</p>
+</blockquote>
+<p>16 撤销暂存区的修改</p>
+<blockquote>
+<p>$ git reset HEAD 文件名</p>
+</blockquote>
+<p>17 将本地库与远程库关联</p>
+<blockquote>
+<p>$git remote add origin <a href="mailto:git@github.com">git@github.com</a>:QFXLSBBX/xczx.git(ssh协议的仓库地址)</p>
+</blockquote>
+<p>18 首次向远程库推送</p>
+<blockquote>
+<p>$ git push -u origin 远程库的分支名</p>
+</blockquote>
+<p>18 向远程库推送</p>
+<blockquote>
+<p>$ git push origin 分支名</p>
+</blockquote>
+<p>19 从远程库克隆</p>
+<blockquote>
+<p>$ git clone 仓库地址</p>
+</blockquote>
+<p>20 查看分支</p>
+<blockquote>
+<p>$ git branch</p>
+</blockquote>
+<p>21 合并某分支到当前分支</p>
+<blockquote>
+<p>$ git merge 要合并分支名</p>
+</blockquote>
+<p>22 删除分支</p>
+<blockquote>
+<p>$ git branch -d 分支名</p>
+</blockquote>
+<p>23 创建标签</p>
+<blockquote>
+<p>$ git tag 标签名</p>
+</blockquote>
+<p>24 查看标签</p>
+<blockquote>
+<p>$ git tag</p>
+</blockquote>
+<p>25 删除本地标签</p>
+<blockquote>
+<p>$ git tag -d 标签名</p>
+</blockquote>
+<p>26 推送某个标签到远程</p>
+<blockquote>
+<p>$ git push origin 标签名</p>
+</blockquote>
+<p>27 一次性推送所有尚未推送到远程的本地标签</p>
+<blockquote>
+<p>$ git push origin –tags</p>
+</blockquote>
+<p>28 删除远程标签</p>
+<blockquote>
+<p>$ git push origin :refs/tags/标签名/2020/hexo-seo)</p>
+</blockquote>
 ]]></content>
       <categories>
         <category>技术</category>
@@ -138,15 +140,161 @@
       </tags>
   </entry>
   <entry>
-    <title>helloworld</title>
-    <url>/chenxijia.githup.io/2020/08/11/helloworld/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\chenxijia.githup.io\assets\css\APlayer.min.css"><script src="\chenxijia.githup.io\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\chenxijia.githup.io\assets\js\Meting.min.js"></script><h4 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h4>]]></content>
+    <title>hexo-seo优化技巧</title>
+    <url>/chenxijia.githup.io/2020/06/16/Hexo-SEO%E4%BC%98%E5%8C%96/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\chenxijia.githup.io\assets\css\APlayer.min.css"><script src="\chenxijia.githup.io\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\chenxijia.githup.io\assets\js\Meting.min.js"></script><p>搭建的hexo博客如果不经过优化，在搜索引擎被收录的可能很小，SEO可以提高被搜到的几率</p>
+<p><a name="04ad26dd"></a></p>
+<h3 id="一-生成-sitemap-文件"><a href="#一-生成-sitemap-文件" class="headerlink" title="一. 生成 sitemap 文件"></a>一. 生成 sitemap 文件</h3><p>需要先安装两个 hexo 插件：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save        </span><br><span class="line">npm install hexo-generator-baidu-sitemap --save</span><br></pre></td></tr></table></figure>
+
+<p>打开配置文件<code>_config.yml</code>添加</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">sitemap:</span></span><br><span class="line">    <span class="attr">path:</span> <span class="string">sitemap.xml</span></span><br><span class="line"><span class="attr">baidusitemap:</span></span><br><span class="line">    <span class="attr">path:</span> <span class="string">baidusitemap.xml</span></span><br></pre></td></tr></table></figure>
+
+<p>再重启 hexo，在本地访问 <a href="">localhost:4000/sitemap.xml</a>和 <a href="">localhost:4000/baidusitemap.xml</a> 就能正确的展示出两个sitemap 文件了。</p>
+<a id="more"></a>
+
+<p><a name="0951f961"></a></p>
+<h3 id="二-推送到-谷歌-和-百度"><a href="#二-推送到-谷歌-和-百度" class="headerlink" title="二. 推送到 谷歌 和 百度"></a>二. 推送到 谷歌 和 百度</h3><p><a name="c58b62e5"></a></p>
+<h4 id="1-百度-→-添加个人网站"><a href="#1-百度-→-添加个人网站" class="headerlink" title="1. 百度 → 添加个人网站"></a>1. 百度 → <a href="https://ziyuan.baidu.com/site/siteadd?siteurl=">添加个人网站</a></h4><p>添加文件方式不可行，hexo会处理html文件</p>
+<p>所以选择，在 head.ejs 里添加 html 标签</p>
+<p>1.1 <a href="https://ziyuan.baidu.com/linksubmit/index">手动提交baidusitemap.xml</a>(里面也有自动提交的代码)</p>
+<p>1.2 可以用”抓取诊断”，手动-百度抓取</p>
+<p>1.3 Robots → 检测并更新</p>
+<p><a name="53dfa5ae"></a></p>
+<h4 id="2-谷歌-→-添加个人网站"><a href="#2-谷歌-→-添加个人网站" class="headerlink" title="2. 谷歌 → 添加个人网站"></a>2. 谷歌 → <a href="https://search.google.com/search-console/welcome">添加个人网站</a></h4><p>类似百度 ，也是在 head.ejs 里添加 html 标签</p>
+<blockquote>
+<p>验证通过就好，过两天左右 百度和谷歌就能收录你的站点</p>
+</blockquote>
+<blockquote>
+<p>测试方式: (分别在 google 和 baidu 搜索)</p>
+</blockquote>
+<blockquote>
+<p>site: shen-yu.gitee.io</p>
+</blockquote>
+<p><a name="dc54d512"></a></p>
+<h5 id="2-1-手动提交sitemap，甚至是单个网站"><a href="#2-1-手动提交sitemap，甚至是单个网站" class="headerlink" title="2.1 手动提交sitemap，甚至是单个网站"></a>2.1 手动提交sitemap，甚至是单个网站</h5><p><a name="19cedad5"></a></p>
+<h5 id="GoogleSearchConsole-→-站点地图-→-输入sitemap-xml-→-提交"><a href="#GoogleSearchConsole-→-站点地图-→-输入sitemap-xml-→-提交" class="headerlink" title="GoogleSearchConsole → 站点地图 → 输入sitemap.xml → 提交"></a><a href="https://search.google.com/search-console">GoogleSearchConsole</a> → 站点地图 → 输入sitemap.xml → 提交</h5><p><a name="39dffe8d"></a></p>
+<h5 id="2-2-robots配置"><a href="#2-2-robots配置" class="headerlink" title="2.2 robots配置"></a>2.2 robots配置</h5><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">User-agent: *</span><br><span class="line">Allow: &#x2F;</span><br><span class="line">Allow: &#x2F;home&#x2F;</span><br><span class="line">Allow: &#x2F;archives&#x2F;</span><br><span class="line">Allow: &#x2F;about&#x2F;</span><br><span class="line">Disallow: &#x2F;vendors&#x2F;</span><br><span class="line">Disallow: &#x2F;js&#x2F;</span><br><span class="line">Disallow: &#x2F;css&#x2F;</span><br><span class="line">Disallow: &#x2F;fonts&#x2F;</span><br><span class="line">Disallow: &#x2F;vendors&#x2F;</span><br><span class="line">Disallow: &#x2F;fancybox&#x2F;</span><br><span class="line"></span><br><span class="line">Sitemap: http:&#x2F;&#x2F;yoursite&#x2F;sitemap.xml</span><br><span class="line">Sitemap: http:&#x2F;&#x2F;yoursite&#x2F;baidusitemap.xml</span><br></pre></td></tr></table></figure>
+
+<p>Allow表示允许被访问的，Disallow是不允许的意思。注意后面两个Sitemap就是网站地图了。而网站地图前面说了是给爬虫用的。这里配置在robots中。</p>
+<p><a name="c35bfb76"></a></p>
+<h5 id="2-3-测试"><a href="#2-3-测试" class="headerlink" title="2.3 测试"></a>2.3 测试</h5><p>旧版 GoogleSearchConsole 测试 robots.txt  是否配置好</p>
+<p>新版 GoogleSearchConsole 测试 sitemap.xml 是否配置好</p>
+<p><a name="3676c080"></a></p>
+<h3 id="三-定期清除死链接"><a href="#三-定期清除死链接" class="headerlink" title="三. 定期清除死链接"></a>三. 定期清除死链接</h3><p><a href="https://www.google.com/webmasters/tools/removals">https://www.google.com/webmasters/tools/removals</a></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>About Me</title>
+    <url>/chenxijia.githup.io/2019/12/01/about/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\chenxijia.githup.io\assets\css\APlayer.min.css"><script src="\chenxijia.githup.io\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\chenxijia.githup.io\assets\js\Meting.min.js"></script><blockquote>
+<p>A Coder, live in Hangzhou, China.</p>
+</blockquote>
+<p>姓名：沈宇<br>现居：杭州<br>GitHub: <a href="https://github.com/Shen-Yu">Shen-Yu</a><br>twitter: <a href="https://twitter.com/shenyu1995">shenyu1995</a><br>QQ: <a href="http://wpa.qq.com/msgrd?v=3&uin=448766534&site=qq&menu=yes">448766534</a><br>微信: yuknass</p>
+<a id="more"></a>
+
+<!-- ![avatar.jpg](https://i.loli.net/2019/12/02/Hw5WJIMKzi1YrU8.jpg) -->
+
+<img src="https://pic.downk.cc/item/5e739676e83c3a1e3ab4b361.jpg" alt="avatar" width="300" style="border-radius:50%"/>]]></content>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
   </entry>
   <entry>
     <title></title>
     <url>/chenxijia.githup.io/2020/08/11/hello-world/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\chenxijia.githup.io\assets\css\APlayer.min.css"><script src="\chenxijia.githup.io\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\chenxijia.githup.io\assets\js\Meting.min.js"></script><h1 id="Hello-world"><a href="#Hello-world" class="headerlink" title="Hello world"></a>Hello world</h1><p>单元测试</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>原汁原味黔东南</title>
+    <url>/chenxijia.githup.io/2018/11/21/%E5%8E%9F%E6%B1%81%E5%8E%9F%E5%91%B3%E9%BB%94%E4%B8%9C%E5%8D%97/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\chenxijia.githup.io\assets\css\APlayer.min.css"><script src="\chenxijia.githup.io\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\chenxijia.githup.io\assets\js\Meting.min.js"></script><p>从昆明向东过来，我预选的目的地有两个，都匀和凯里。到都匀的话去荔波比较方便，到凯里的话去看黔东南苗寨比较方便。考虑到荔波在南边，而且交通不是很方便（目前正在建凯里到荔波的大路，建成后大巴过去还是挺方便的），如果从都匀过去的话也会浪费几天时间，所以就留下了这一程最遗憾的一点，就是没能去荔波看看喀斯特地貌（其实来之前我对荔波已经做足了攻略）。好在这一点遗憾马上就被朗德和镇远给弥补了。</p>
+<a id="more"></a>
+
+<h2 id="朗德苗寨"><a href="#朗德苗寨" class="headerlink" title="朗德苗寨"></a>朗德苗寨</h2><p>相较于西江千户苗寨的喧嚣与商业化，朗德苗寨则显得安静许多，它很多地方也保留了原汁原味的苗族特色。例如十二道拦路酒，例如手工制作苗族银首饰。这也是我考虑再三都想去的原因。虽然餐饮住宿和西江千户比起来差很多，夜景应该也要差很多，但我觉得苗寨应当是原生的才最值得一去。 去朗德苗寨很方便，可以从凯里汽车站坐中巴直接过去，从早上7点开始，大约2小时一班，来回都是10块钱，平时没什么人，基本都是当地人在来回。中巴是沿着山路盘旋开上去的，一路上经过南花苗寨和季刀苗寨，都是很原生，小众安静的苗寨，山顶云雾缭绕，溪水在村寨门口流过，苗族姑娘在溪边拍打衣服，这种场景绝对令每个游客都神往，路上遇到美好的画面可以让司机停下然后下车逛逛，坐下一班再去朗德。班车从汽车站大概一个小时到朗德，我来的时候正好旅游淡季，下了中巴，感觉整个苗寨都是属于自己的。也有游客中心啥的设施，但朗德还是保留着大部分完整的味道。 下了中巴往大寨门口走进去是朗德下寨，可以随便逛逛，最美的是朗德上寨，需要沿着公路自己走过去大概几百米，或者可以坐游览车过去。我当时走错了，把上面有个什么雷寨错当成朗德上寨了，后来从山上走下来，多花费了不少力气。注意，朗德上寨和下寨中间隔了一段公路的，你可以沿着下了车后的大寨门下面的溪水，一路走过去。</p>
+<p><img src="http://n2-q.mafengwo.net/s12/M00/AD/86/wKgED1v1GqGAYrw8AAZ5mz4afSc22.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"></p>
+<p>下寨到上寨的这段路，风景也不错，主要是溪水潺潺。</p>
+<p><img src="http://n2-q.mafengwo.net/s12/M00/AD/88/wKgED1v1GqOAAmIVAAfCH-6tBis04.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"></p>
+<p><img src="http://b1-q.mafengwo.net/s12/M00/AD/8B/wKgED1v1GqWAGlJOAAwE9jqC2D457.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br>这就是朗德上寨，门口有个石牌，因为08年的时候奥运圣火也经过这儿，所以雕刻着圣火和奥运五环。<br><img src="http://b2-q.mafengwo.net/s12/M00/AD/8E/wKgED1v1GqeAWzELAAq6KghKmug12.jpeg?imageView2/2/w/700/h/600/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br>朗德上寨的表演场，上午10点左右和下午3点多各有一场表演的。<br><img src="http://b1-q.mafengwo.net/s12/M00/AD/90/wKgED1v1GqmAUOm4AAobpiwu7xY70.jpeg?imageView2/2/w/700/h/600/q/90%7CimageMogr2/strip/quality/90" alt="image.png"></p>
+<p><img src="http://b4-q.mafengwo.net/s12/M00/AD/91/wKgED1v1GqqAOPIWAAuJYr3Ngy477.jpeg?imageView2/2/w/700/h/600/q/90%7CimageMogr2/strip/quality/90" alt="image.png"></p>
+<p>以上便是朗德上寨的风光了，从朗德回凯里的班车最迟是傍晚4点半。如果错过了就选择住在寨里吧，客栈也是有不少的。整体来讲，朗德就是一个正转型旅游化但尚且少为人知的一个小村寨。</p>
+<h2 id="镇远古镇"><a href="#镇远古镇" class="headerlink" title="镇远古镇"></a>镇远古镇</h2><p>镇远，相较于朗德，知名度就大了很多，交通餐饮住宿十分齐全，火车站汽车站公交，样样齐全，每天都有来自四面八方的游客为它而来。位于舞阳河畔，四周皆山。河水婉婉，这里的古建筑群依山傍水，这里的居民每天过得十分惬意。镇远古镇是属于那种虽然被人声打扰，但却更显韵味的地方。<br><img src="http://p3-q.mafengwo.net/s12/M00/AD/92/wKgED1v1GqyAC57vAAYXapodWRA37.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="http://b3-q.mafengwo.net/s12/M00/AD/B8/wKgED1v1GsuARaW1AAdswBJlKhk91.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="http://b1-q.mafengwo.net/s12/M00/AD/95/wKgED1v1Gq2AITtdAAuWkTIH8TU95.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="http://p1-q.mafengwo.net/s12/M00/AD/98/wKgED1v1Gq-AAY0vAA_EWekUuJY13.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="http://n3-q.mafengwo.net/s12/M00/AD/9B/wKgED1v1GrKAK5__AA8tMU9kaXo27.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br>夜色中的镇远灯火相映，辉煌如画，仿佛代表了整个黔东南，想向你慢慢诉说这里的故事。这里的小吃特产，你都能随手在街上选出一家店来去细细品尝。<br><img src="http://b3-q.mafengwo.net/s12/M00/AE/A9/wKgED1v1G3mAS-5bAAn9-dWphu413.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="http://p3-q.mafengwo.net/s12/M00/AE/AB/wKgED1v1G3uAKj5RAAtE20kJn_011.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="http://b2-q.mafengwo.net/s12/M00/AE/AE/wKgED1v1G3yAVnx7AAjGF9W5MWU57.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"></p>
+<p>白天，日光下的镇远脱去了夜晚闪耀的礼服，露出它安静温婉的一面，碧绿的舞阳河水映出她的脸庞。这里的居民每天跳跳舞下下棋钓钓鱼，好不快活！</p>
+]]></content>
+      <categories>
+        <category>旅行</category>
+        <category>国内</category>
+      </categories>
+      <tags>
+        <tag>旅行</tag>
+        <tag>国内</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>helloworld</title>
+    <url>/chenxijia.githup.io/2020/08/11/helloworld/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\chenxijia.githup.io\assets\css\APlayer.min.css"><script src="\chenxijia.githup.io\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\chenxijia.githup.io\assets\js\Meting.min.js"></script><h4 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h4>]]></content>
+  </entry>
+  <entry>
+    <title>大美湘西</title>
+    <url>/chenxijia.githup.io/2018/11/21/%E5%A4%A7%E7%BE%8E%E6%B9%98%E8%A5%BF/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\chenxijia.githup.io\assets\css\APlayer.min.css"><script src="\chenxijia.githup.io\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\chenxijia.githup.io\assets\js\Meting.min.js"></script><p>为什么先写这篇？因为湘西是我云贵湘之行的最后一站，刚出怀化火车站，我对它的印象是很差的，首先是有很多莫名其妙的人会把你围得透不过气，各种请你住宿吃饭打车，甚至我在怀化汽车站上厕所还向我收费（我当然没有给）。之后我去了凤凰古镇，到的时候正好是晚上，周遭一片漆黑，只有中心地带比较热闹，古镇里还有小女孩强行推销鲜花，和苗族姑娘拍照也得收费。这是湘西给我的第一印象。就是商业化太严重了，我想，也或许是当地经济比较差的缘故吧。。这和政府在城市整治这方面有脱不开的关系。不过抛开这些不谈，整个湘西的风景还是值得一去的。</p>
+<a id="more"></a>
+
+<h2 id="凤凰古镇"><a href="#凤凰古镇" class="headerlink" title="凤凰古镇"></a>凤凰古镇</h2><p>到凤凰古镇有两个交通方式，一个是从怀化坐大巴，一个是从吉首坐大巴。凤凰并没有火车站，所以这两种方式其实都差不多都走的是高速，就看你从哪里方便了。由于我是从镇远古镇过来的，考虑到如果坐火车到吉首就是凌晨了不是很方便，而且逛完还得原路返回，所以我就直接从镇远坐火车到怀化，怀化再坐大巴去凤凰。怀化汽车西站离火车站很近，坐大巴大概一个多小时就到凤凰了。 我到凤凰已经是傍晚了，在这要注意，凤凰古镇的公共交通是很不方便的，一路走过去你可能找了好久也没有找到公交站牌在哪里，听说一路车是可以直接到凤凰古镇，不知道为啥，我等了很久也没有来，所以在凤凰古镇我唯一用到的交通工具是我的脚，当然你也可以打的或者和别人拼车过去，大概5块钱的样子，其实从汽车站走过去对于我这种习惯于徒步的人来说也算是近的，才2公里左右。 进了凤凰古镇，我差点以为我走错地方了。因为灯光实在是太暗，而且和网上看到的照片相差太远了吧。后来问了下客栈老板娘，说是旅游淡季就没全部开灯。晚上的景色确实是不如镇远古镇。</p>
+<p><img src="http://p4-q.mafengwo.net/s12/M00/A5/00/wKgED1vyru6AZlrrAAa-nzE3IJ066.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br>有灯光的地方都是一群中老年人挤着在拍照。</p>
+<p>晚上逛了一圈看到这样的景象我便瞬间没了兴致，回客栈洗洗睡了。古城内的客栈还是很多的，价格也相对合理，怕被坑就从网上订，网上订的就要跟着地图找具体位置了。</p>
+<p>第二天早上起来我就又去逛了，看到和昨晚截然不同的景象。。白天的凤凰古城还是挺美的哈。</p>
+<p><img src="http://p2-q.mafengwo.net/s12/M00/8E/AB/wKgED1vyleSALkumAAc2lE1m4Wc32.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="http://b1-q.mafengwo.net/s12/M00/F3/2A/wKgED1vzPceAMQHYAAhrnYVoMBc47.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="http://n1-q.mafengwo.net/s12/M00/F3/2A/wKgED1vzPciAbNdXAAlCJEqZ-zc60.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="http://n3-q.mafengwo.net/s12/M00/F5/9A/wKgED1vzTDOAa3pXABdhHzPSgb046.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="http://n2-q.mafengwo.net/s12/M00/F5/9A/wKgED1vzTDSAboeMAAjv-YEdsOU76.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"></p>
+<p>整个古城不大，半天就能逛完，一条沱江将它分隔成一南一北。可以沿着沱江来回走一圈。江上有条石块搭成的小道，拍照的人挺多的，远看就像是走在江上，不过要注意安全小心别掉下去，沱江的水流还是很急的。</p>
+<p>一路往东走可以看到湘西吊脚楼，排列在水上十分优雅。还能看到南华山上云雾缭绕，晴天是看不到的，阴雨天来凤凰正好，雾蒙蒙，多了一份朦胧感。</p>
+<h2 id="张家界国家森林公园"><a href="#张家界国家森林公园" class="headerlink" title="张家界国家森林公园"></a>张家界国家森林公园</h2><p>来到湘西当然不可错过张家界，从凤凰古城过去还是很方便的，有直达的大巴，80元，也可以先花25元坐大巴到吉首，吉首再坐火车20元去张家界。我是选了后者，因为没去过吉首，正好一路过去看看，也相对便宜。</p>
+<p>张家界有两个大型森林公园，需要区分开来。一个是天门山国家森林公园，坐索道就能直接到的，上面还有网红玻璃栈道，天门山索道离火车站很近，就在火车站出来再左转的大庸路上，索道缆车在火车站就能看到了，很长，有七千多米，是世界上最长的高山客运索道。比较适合文艺青年打卡，由于我这趟并没有去，所以无法深入介绍了。而且我觉得性价比不高，全程索道上下所以爬山乐趣也没了。另外一个就是我这次去的张家界国家森林公园，因为在武陵源区，所以也叫武陵源风景名胜区，这是张家界最出名的一个地方，比天门山要大好几倍，可玩性也大很多，如果背包客不到这个地方来算是白来张家界了。</p>
+<p>虽然我在张家界森林公园只玩了两天，但是已经把里面的交通以及路线全部搞清楚了，每个大景点也一一走过。接下来我会将我所知道的全部告诉你，我还有一个安排得很好的路线分享，可以让你在最短的时间玩遍张家界。好了，废话不多说。</p>
+<p><img src="http://b2-q.mafengwo.net/s12/M00/42/44/wKgED1vznUqAQ6cUAAGMx5fvYVs36.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br>首先，张家界国家森林公园（以下简称张家界）的门票口总共有五个，除了上图中三个（森林公园，天子山，武陵源），其他在杨家界有个门票站，水绕四门下面也有一个。从火车站到张家界的班车只能去这三个门票站，车程一个小时左右，都是10来块钱。</p>
+<p>这三个口相对来说，武陵源门票口最繁华，住宿吃饭的都很多，物价也相对便宜。天子山其次，森林公园就比较少了。我的路线是从森林公园进，天子山住宿一夜，武陵源出。当然你也可以反过来，也可以武陵源作为住宿站。但我不建议森林公园作为住宿站，因为查了一下，天子山和武陵源的客栈都比森林公园要便宜要多。网上也有说把丁香榕村作为住宿站点的，其实那边的客栈相对来说也贵，我个人觉得要是你想看日出日落那可以选择住那边。</p>
+<p>下面说说各个景点和交通，这里面除了金鞭溪需要步行之外，其它都是可以通过景区环保车或索道或天梯去周转到达。（景区大门票225，和指纹绑定，4日内可以随便进出，包含了景区环保车，但不包括其它索道啥的）</p>
+<p>黄石寨，金鞭溪和袁家界我认为可以连在一起逛完，因为黄石寨是独立的一个景点，上面还是值得一去的，可以上去绕一圈看看五指峰什么的，上下都有索道，步行爬上去得一个小时，也可以上去索道下来步行，但我不建议爬上去，首先这会耗费大量体力，影响到之后逛金鞭溪。黄石寨索道下站到森林公园门票口都有环保车，逛完之后回来，然后沿着金鞭溪走，一路上景色很美，还能看到猴子们在溪水边嬉戏，走到千里相会是一个分叉口，可以选择爬上乱窜坡直到袁家界，也可以选择继续沿着金鞭溪走，走到水绕四门，然后坐环保车去百龙天梯，百龙天梯直接到袁家界。逛完袁家界就没多少力气了，坐环保车去天子山门票口或者丁香榕村住宿吧。当然，我这是按两天的行程来安排的，你也可以放慢节奏，到了水绕四门直接坐环保车出武陵源口找住宿。</p>
+<p>至于杨家界，可以安排到和天子山一起逛。因为杨家界里面的天波府爬起来还是很费力的，一路上都是怪石嶙峋，其中一条两石壁中间的路很窄。逛完杨家界应该也比较累了，坐上环保车去天子山索道站，逛一下贺龙公园看一下贺龙元帅铜像就坐索道下山，如果要爬下来也是很费力的，据说有7千多阶。坐索道下来时的风景很赞，可以近距离观赏张家界地貌。下来后还有精力的话就坐环保车去看看十里画廊，没精力了就直接出武陵源口，去张家界火车站大巴要去武陵源汽车站坐，需要向前走500米左右到汽车站，到此，一天的行程也就结束了。</p>
+<p>以上，按照两天行程的安排，每个景点都逛了，如果觉得太赶，可以适当拆开来，也不会太累。</p>
+<p>下面放照片(微笑)</p>
+<p><img src="http://n3-q.mafengwo.net/s12/M00/94/94/wKgED1vz1UWAZ6CVAAT41H9BUgo18.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br>黄石寨的风光是连张信哲都在坐过之后称赞不已的。<br><img src="http://p2-q.mafengwo.net/s12/M00/94/9A/wKgED1vz1UyALo88AAcEmj-Wjh878.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="http://p3-q.mafengwo.net/s12/M00/94/9E/wKgED1vz1VGAWFnKAAYIepCyOZw70.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br>上面两张是黄石寨上面的风光。<br><img src="http://n1-q.mafengwo.net/s12/M00/6F/AE/wKgED1v0-MaAXJWJAAoyTJ3tgt019.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br>张家界森林公园门口。<br><img src="http://n1-q.mafengwo.net/s12/M00/6F/B0/wKgED1v0-MiAZDC8AAvIifjo9LI54.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="http://n3-q.mafengwo.net/s12/M00/6F/B4/wKgED1v0-MqAXBizAAsDHPRknAw10.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br>以上是金鞭溪的风光。<br><img src="http://p3-q.mafengwo.net/s12/M00/6F/B8/wKgED1v0-MyAF3NAAAs8M5gAAGs16.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="http://p1-q.mafengwo.net/s12/M00/6F/BC/wKgED1v0-M6AFe9xAAtLX7hPD0093.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br>从乱窜坡上去之后，首先会看到第一张的指示牌，如果你从袁家界爬下来的话要注意向金鞭溪的方向走，至于迷魂台是袁家界里面一个小景点。再往上爬，出来就是一条公路，这条公路是给环保车行驶用的，往左边指示的方向走就是袁家界了。这上面还有个墓，我觉得挺神秘的，说这是啥龙脉地。<br><img src="http://b1-q.mafengwo.net/s12/M00/6F/BF/wKgED1v0-NGALwdkAAjuwwKWU_k29.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="http://p4-q.mafengwo.net/s12/M00/6F/C2/wKgED1v0-NOADNvaAAkzhhXraxI99.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br>阿凡达取景地。<br><img src="http://b3-q.mafengwo.net/s12/M00/6F/C4/wKgED1v0-NWAP9tvAAhGTpTpkSg78.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="http://b3-q.mafengwo.net/s12/M00/6F/C7/wKgED1v0-NeAe0alAAtStjgbkJM57.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br>以上都是袁家界的风光。<br><img src="http://p3-q.mafengwo.net/s12/M00/6F/CE/wKgED1v0-N6AeX5zAAp4ykrSBX085.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br>这张是杨家界天波府的风光，视野很开阔，只能拍全景照才能体现它的美。<br><img src="http://p3-q.mafengwo.net/s12/M00/6F/D1/wKgED1v0-N-AeBHRAAil20at-3837.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="http://b3-q.mafengwo.net/s12/M00/6F/D6/wKgED1v0-OOARVgxAAgdk4--aI885.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="http://p4-q.mafengwo.net/s12/M00/6F/D2/wKgED1v0-OGACmJ8AAonHmQjk_c15.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br>从杨家界进去到天波府的地势很艰险，而且越往后越艰险，其中一段路窄到只能允许一个人通过，因为我去的时候正好桥坏了，所以还得爬钢丝梯上去，老年人肯定是上不了天波府的。<br><img src="http://b4-q.mafengwo.net/s12/M00/84/11/wKgED1v1BM-AfT-iAAov_uDuVXM12.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="http://n2-q.mafengwo.net/s12/M00/84/14/wKgED1v1BNGAX0TgAAZ1KYZFqdU21.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br>天子山上的贺龙公园。<br><img src="http://b4-q.mafengwo.net/s12/M00/84/18/wKgED1v1BNOAHGUBAAgTLtT9en874.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br>从天子山下去坐索道一路能看到不一样的景色，近距离观看红色的岩壁，繁茂的植被，能最大限度的还原张家界地貌。这也是我为什么推荐坐索道下去的一大原因。<br><img src="http://n3-q.mafengwo.net/s12/M00/84/1E/wKgED1v1BNWAN3hYAAqhFitoj3c49.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="https://n1-q.mafengwo.net/s12/M00/84/28/wKgED1v1BNqAQ4uaAAjWtadLhzY20.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="https://p2-q.mafengwo.net/s12/M00/84/2D/wKgED1v1BNyAD_W7AAj_vRcQ41k20.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="https://n4-q.mafengwo.net/s12/M00/84/31/wKgED1v1BN6AfMnKAAiUyyWYHrc28.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="https://b2-q.mafengwo.net/s12/M00/84/34/wKgED1v1BOGAMQPeAAvZNMUCWSk94.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br>百龙天梯，世界上最高的户外电梯，世界第一梯。从山下到袁家界上面只要1分钟。<br><img src="https://p4-q.mafengwo.net/s12/M00/84/37/wKgED1v1BOKAIhSBAAbmMN7Om3434.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br>最后从武陵源门票口出，门口住宿吃饭的地儿都挺多的，走不远处有个汽车站可以买到回市里的票。</p>
+]]></content>
+      <categories>
+        <category>旅行</category>
+        <category>国内</category>
+      </categories>
+      <tags>
+        <tag>旅行</tag>
+        <tag>国内</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>手机摄影学习笔记</title>
+    <url>/chenxijia.githup.io/2016/09/07/%E6%89%8B%E6%9C%BA%E6%91%84%E5%BD%B1%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\chenxijia.githup.io\assets\css\APlayer.min.css"><script src="\chenxijia.githup.io\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\chenxijia.githup.io\assets\js\Meting.min.js"></script><h2 id="焦距"><a href="#焦距" class="headerlink" title="焦距"></a>焦距</h2><p>1.广角：28mm，长焦800<br>2.光圈</p>
+<a id="more"></a>
+
+<h2 id="构图基础"><a href="#构图基础" class="headerlink" title="构图基础"></a>构图基础</h2><p>1.机位（站在哪里）<br>2.视点（不正常的视角）<br>3.层次（近中远），拍海滩要有前景<br>4.简化<br>小景深，剪影，纯色背景，留白</p>
+<h2 id="构图进阶"><a href="#构图进阶" class="headerlink" title="构图进阶"></a>构图进阶</h2><p>1.立体透视：要么完全立体透视，要么完全平面化<br>2.对比：大小对比，动静对比，明暗对比，虚实对比，（贴在玻璃上就不会有反光）<br>3.质感<br>3.形式（中央，对称，重复，突变，框架）</p>
+<h2 id="平面构成"><a href="#平面构成" class="headerlink" title="平面构成"></a>平面构成</h2><p>1.点线面</p>
+<h2 id="软件"><a href="#软件" class="headerlink" title="软件"></a>软件</h2><p>procam，slowshutter,snapseed<br>黄金分割线<br>最佳兴趣点辅助线<br>黄金螺旋线</p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>随笔</tag>
+        <tag>学习</tag>
+        <tag>摄影</tag>
+      </tags>
   </entry>
   <entry>
     <title>网站搬家记录</title>
@@ -204,57 +352,6 @@
       </tags>
   </entry>
   <entry>
-    <title>hexo-seo优化技巧</title>
-    <url>/chenxijia.githup.io/2020/06/16/Hexo-SEO%E4%BC%98%E5%8C%96/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\chenxijia.githup.io\assets\css\APlayer.min.css"><script src="\chenxijia.githup.io\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\chenxijia.githup.io\assets\js\Meting.min.js"></script><p>搭建的hexo博客如果不经过优化，在搜索引擎被收录的可能很小，SEO可以提高被搜到的几率</p>
-<p><a name="04ad26dd"></a></p>
-<h3 id="一-生成-sitemap-文件"><a href="#一-生成-sitemap-文件" class="headerlink" title="一. 生成 sitemap 文件"></a>一. 生成 sitemap 文件</h3><p>需要先安装两个 hexo 插件：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save        </span><br><span class="line">npm install hexo-generator-baidu-sitemap --save</span><br></pre></td></tr></table></figure>
-
-<p>打开配置文件<code>_config.yml</code>添加</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">sitemap:</span></span><br><span class="line">    <span class="attr">path:</span> <span class="string">sitemap.xml</span></span><br><span class="line"><span class="attr">baidusitemap:</span></span><br><span class="line">    <span class="attr">path:</span> <span class="string">baidusitemap.xml</span></span><br></pre></td></tr></table></figure>
-
-<p>再重启 hexo，在本地访问 <a href="">localhost:4000/sitemap.xml</a>和 <a href="">localhost:4000/baidusitemap.xml</a> 就能正确的展示出两个sitemap 文件了。</p>
-<a id="more"></a>
-
-<p><a name="0951f961"></a></p>
-<h3 id="二-推送到-谷歌-和-百度"><a href="#二-推送到-谷歌-和-百度" class="headerlink" title="二. 推送到 谷歌 和 百度"></a>二. 推送到 谷歌 和 百度</h3><p><a name="c58b62e5"></a></p>
-<h4 id="1-百度-→-添加个人网站"><a href="#1-百度-→-添加个人网站" class="headerlink" title="1. 百度 → 添加个人网站"></a>1. 百度 → <a href="https://ziyuan.baidu.com/site/siteadd?siteurl=">添加个人网站</a></h4><p>添加文件方式不可行，hexo会处理html文件</p>
-<p>所以选择，在 head.ejs 里添加 html 标签</p>
-<p>1.1 <a href="https://ziyuan.baidu.com/linksubmit/index">手动提交baidusitemap.xml</a>(里面也有自动提交的代码)</p>
-<p>1.2 可以用”抓取诊断”，手动-百度抓取</p>
-<p>1.3 Robots → 检测并更新</p>
-<p><a name="53dfa5ae"></a></p>
-<h4 id="2-谷歌-→-添加个人网站"><a href="#2-谷歌-→-添加个人网站" class="headerlink" title="2. 谷歌 → 添加个人网站"></a>2. 谷歌 → <a href="https://search.google.com/search-console/welcome">添加个人网站</a></h4><p>类似百度 ，也是在 head.ejs 里添加 html 标签</p>
-<blockquote>
-<p>验证通过就好，过两天左右 百度和谷歌就能收录你的站点</p>
-</blockquote>
-<blockquote>
-<p>测试方式: (分别在 google 和 baidu 搜索)</p>
-</blockquote>
-<blockquote>
-<p>site: shen-yu.gitee.io</p>
-</blockquote>
-<p><a name="dc54d512"></a></p>
-<h5 id="2-1-手动提交sitemap，甚至是单个网站"><a href="#2-1-手动提交sitemap，甚至是单个网站" class="headerlink" title="2.1 手动提交sitemap，甚至是单个网站"></a>2.1 手动提交sitemap，甚至是单个网站</h5><p><a name="19cedad5"></a></p>
-<h5 id="GoogleSearchConsole-→-站点地图-→-输入sitemap-xml-→-提交"><a href="#GoogleSearchConsole-→-站点地图-→-输入sitemap-xml-→-提交" class="headerlink" title="GoogleSearchConsole → 站点地图 → 输入sitemap.xml → 提交"></a><a href="https://search.google.com/search-console">GoogleSearchConsole</a> → 站点地图 → 输入sitemap.xml → 提交</h5><p><a name="39dffe8d"></a></p>
-<h5 id="2-2-robots配置"><a href="#2-2-robots配置" class="headerlink" title="2.2 robots配置"></a>2.2 robots配置</h5><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">User-agent: *</span><br><span class="line">Allow: &#x2F;</span><br><span class="line">Allow: &#x2F;home&#x2F;</span><br><span class="line">Allow: &#x2F;archives&#x2F;</span><br><span class="line">Allow: &#x2F;about&#x2F;</span><br><span class="line">Disallow: &#x2F;vendors&#x2F;</span><br><span class="line">Disallow: &#x2F;js&#x2F;</span><br><span class="line">Disallow: &#x2F;css&#x2F;</span><br><span class="line">Disallow: &#x2F;fonts&#x2F;</span><br><span class="line">Disallow: &#x2F;vendors&#x2F;</span><br><span class="line">Disallow: &#x2F;fancybox&#x2F;</span><br><span class="line"></span><br><span class="line">Sitemap: http:&#x2F;&#x2F;yoursite&#x2F;sitemap.xml</span><br><span class="line">Sitemap: http:&#x2F;&#x2F;yoursite&#x2F;baidusitemap.xml</span><br></pre></td></tr></table></figure>
-
-<p>Allow表示允许被访问的，Disallow是不允许的意思。注意后面两个Sitemap就是网站地图了。而网站地图前面说了是给爬虫用的。这里配置在robots中。</p>
-<p><a name="c35bfb76"></a></p>
-<h5 id="2-3-测试"><a href="#2-3-测试" class="headerlink" title="2.3 测试"></a>2.3 测试</h5><p>旧版 GoogleSearchConsole 测试 robots.txt  是否配置好</p>
-<p>新版 GoogleSearchConsole 测试 sitemap.xml 是否配置好</p>
-<p><a name="3676c080"></a></p>
-<h3 id="三-定期清除死链接"><a href="#三-定期清除死链接" class="headerlink" title="三. 定期清除死链接"></a>三. 定期清除死链接</h3><p><a href="https://www.google.com/webmasters/tools/removals">https://www.google.com/webmasters/tools/removals</a></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>技术</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>生活杂记</title>
     <url>/chenxijia.githup.io/2020/05/27/%E7%94%9F%E6%B4%BB%E6%9D%82%E8%AE%B0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\chenxijia.githup.io\assets\css\APlayer.min.css"><script src="\chenxijia.githup.io\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\chenxijia.githup.io\assets\js\Meting.min.js"></script><blockquote>
@@ -283,19 +380,30 @@
       </tags>
   </entry>
   <entry>
-    <title>About Me</title>
-    <url>/chenxijia.githup.io/2019/12/01/about/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\chenxijia.githup.io\assets\css\APlayer.min.css"><script src="\chenxijia.githup.io\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\chenxijia.githup.io\assets\js\Meting.min.js"></script><blockquote>
-<p>A Coder, live in Hangzhou, China.</p>
-</blockquote>
-<p>姓名：沈宇<br>现居：杭州<br>GitHub: <a href="https://github.com/Shen-Yu">Shen-Yu</a><br>twitter: <a href="https://twitter.com/shenyu1995">shenyu1995</a><br>QQ: <a href="http://wpa.qq.com/msgrd?v=3&uin=448766534&site=qq&menu=yes">448766534</a><br>微信: yuknass</p>
+    <title>雅加达出差记</title>
+    <url>/chenxijia.githup.io/2017/12/24/%E9%9B%85%E5%8A%A0%E8%BE%BE%E5%87%BA%E5%B7%AE%E8%AE%B0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\chenxijia.githup.io\assets\css\APlayer.min.css"><script src="\chenxijia.githup.io\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\chenxijia.githup.io\assets\js\Meting.min.js"></script><p>整理手机相册，发现还有一段回忆没整理，于是抽了这段闲暇时间把在 雅加达 的日子记录下来，希望有些经验也能帮到网友。</p>
+<p>年初，因为出差的缘故，有幸去 雅加达 体验了一个多月的风土人情。刚开始我是十分不习惯的，毕竟异国他乡之前都没呆过这么久，而且饮食交通没国内那么方便。好在之前去过 越南 ，知道 东南亚 国家都是这样的经济状况，没过几天也适应了，后来慢慢的发现，自己还是挺享受这种简单的生活。至于历史上的恩怨只是老一辈人的谈资，年轻人还是很友好的。</p>
 <a id="more"></a>
 
-<!-- ![avatar.jpg](https://i.loli.net/2019/12/02/Hw5WJIMKzi1YrU8.jpg) -->
-
-<img src="https://pic.downk.cc/item/5e739676e83c3a1e3ab4b361.jpg" alt="avatar" width="300" style="border-radius:50%"/>]]></content>
+<p><img src="http://n1-q.mafengwo.net/s12/M00/B5/0D/wKgED1u-vLqABzeqAAWxC2Wjvb497.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>机票是公司统一给订的，来回都坐的是南航， 广州 作为中转。还有是 香港 和 上海 也可以作为中转。<br><img src="http://b2-q.mafengwo.net/s12/M00/A9/05/wKgED1u-t1iADzNkAATwYrDRtq010.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>广州 白云机场看到一架 越南 航空，想起两年前春节 越南 游，哈哈~<br><img src="http://n3-q.mafengwo.net/s12/M00/A9/09/wKgED1u-t1mAWzTcAAa8n7HNKmE23.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>到达 雅加达 ，一股热带气息扑面而来，刚下 广州 脱了羽绒换上长袖外套，到 雅加达 看着机场外面接机的人群都是短袖，感觉有点格格不入：）因为是商务签，入境的时候需要交300元，美刀好像能便宜点，但同事几个身上都没带。到那边公司宿舍已经是当地11点了，吃了碗挂面洗洗睡。。<br><img src="http://b3-q.mafengwo.net/s12/M00/A9/0B/wKgED1u-t1mARwoJAAdPuM9jkzY74.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>早晨醒来，，感觉很多地方还是挺破的。整个 雅加达 就是贫富悬殊的城市布局，眼下是高楼大厦耸立着，走几步路或许就是土阶茅屋。</p>
+<h2 id="饮食"><a href="#饮食" class="headerlink" title="饮食"></a>饮食</h2><p><img src="http://n3-q.mafengwo.net/s12/M00/A9/0D/wKgED1u-t1qAI1WmAAfG7rFJqXo56.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>甲方公司怕我们吃不惯，都是提前约好让阿姨去买的，然后做好了带来，肉食基本都是这样鸡肉啊青蛙啊虾啊。味道是加了咖喱的那种，很独特。大肉大菜的吃得很饱。食堂里有之前那批人从国内带的老干妈和各种火锅调料，但我很少自己做着吃。<br><img src="http://b4-q.mafengwo.net/s12/M00/E4/AA/wKgED1u-2KGAf0-tAAkdQ8iPcOY33.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>这边的中式餐馆，菜品都挺贵的，不过味道比国内还好吃。<br><img src="http://b1-q.mafengwo.net/s12/M00/DE/FC/wKgED1u-1K2AFOUkAAfZ98hVKPs99.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>马路边走着看到一个老人在摆摊，于是坐下来吃了一碗，老人还很热心得递给我一碗红茶，我向他竖了下拇指就开吃了。下面是粥一样的东西，上面是虾片和鸡肉丝，在 雅加达 任何地方都能见到鸡肉的身影，炸鸡烤鸡很常见也很便宜，虾片也是当地一大特色。和 越南 一样，物价便宜，这碗东西折合人民币才5块钱。<br><img src="http://p3-q.mafengwo.net/s12/M00/E2/2A/wKgED1u-1uOAGVT5AAXxSFgmcgM78.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>有时候吃腻了公司统一提供的菜，下楼下的超市买个这种炸鸡套餐饭，折成人民币才7块钱。不过炸鸡得趁热好吃，去晚了就变得软了。</p>
+<p><img src="http://n4-q.mafengwo.net/s12/M00/DE/FF/wKgED1u-1K6ABefcAAe-5BJbPro31.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="http://p4-q.mafengwo.net/s12/M00/DE/FD/wKgED1u-1K6ADvjeAAeQgJ1tKrM14.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="http://p1-q.mafengwo.net/s12/M00/DF/00/wKgED1u-1LCABeA9AA0n069u8hY85.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>新年第一天跟着同事们一起去了baywalk mall，海港边的大商场，里面有新鲜的海味，可以自己挑好然后现做。每个人200人民币，还算是挺划算的。其中那个炸鱿鱼圈挺好吃的，哈哈当时还想当零食放点在兜里。<br><img src="http://b2-q.mafengwo.net/s12/M00/E4/A8/wKgED1u-2KCABVUvAAlE1WjHHz064.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="http://p3-q.mafengwo.net/s12/M00/E4/AB/wKgED1u-2KGATeSKAAgmxKtCeRg09.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="http://n2-q.mafengwo.net/s12/M00/E4/AD/wKgED1u-2KKAGXjOAAjlfdwMxZQ52.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>毕竟靠近赤道的城市，热带水果还是挺多的，唯一感到奇怪的是没见到榴莲和山竹，，本来还想多吃点国内贵的东西呢  </p>
+<h2 id="住宿"><a href="#住宿" class="headerlink" title="住宿"></a>住宿</h2><p><img src="http://n4-q.mafengwo.net/s12/M00/E4/AE/wKgED1u-2KOAC6J3AATySQ-vpfY43.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="http://p2-q.mafengwo.net/s12/M00/FA/80/wKgED1u-5jyANEeBAAxj1WihoIE28.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>公司健身房～<br><img src="http://b1-q.mafengwo.net/s12/M00/A9/14/wKgED1u-t1yAbGKLAAdg0BQvYHE35.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>这边的大厦很奇怪，汽车可以直接开上顶楼，有个像 盘山 公路一样的车道专门给汽车留着，而且停车库在楼上也有。</p>
+<h2 id="日常"><a href="#日常" class="headerlink" title="日常"></a>日常</h2><p><img src="http://p2-q.mafengwo.net/s12/M00/FA/81/wKgED1u-5jyAAdmNAAhCzqHkCho48.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="http://b4-q.mafengwo.net/s12/M00/A9/16/wKgED1u-t1yABDpwAAXAQPjiDWU90.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="http://n3-q.mafengwo.net/s12/M00/A9/17/wKgED1u-t12Afft9AAXGtYPZ6PM03.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>2017最后一天，鞭炮声不绝于耳，夜空都是烟花，很漂亮，路上骑摩托车的人们都停下来站在桥上看烟花。第一次在异国他乡跨年~<br><img src="http://n2-q.mafengwo.net/s12/M00/A9/12/wKgED1u-t1uAK0k5AAokyu9-2Ek86.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="http://p4-q.mafengwo.net/s12/M00/A9/19/wKgED1u-t12AaWJ_AAR3fIN-IBw80.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>ancol公园的码头，从这可以报旅行社去千岛群岛，到各个岛的都有，不过要去得早，8点多就没船去公主岛了。还要提前取现金，因为码头这唯一的一台ATM只支持visa。所以我没去成还摔了一跤（以下）</p>
+<p>有个周末特别想去千岛群岛玩，因为同事们都去近点的景点浪了， 我就打了个grab去ancol公园，准备报旅行社独自去岛上，还没到公园半路就不小心被摩托车撞了，所幸只是点皮肉伤无大碍。唉，人在外面一定要注意安全，回程途中还遇到一个插曲，想取钱但ATM坏了，然后卡被吞了，我用英语解释了半天旁边人都没听懂，后来幸好有个工作人员出来，说卡要工作日去拿，然后我就把钱提出放弃了那张卡  。注意，这边当地人基本都只会印尼语，说英语还不如说中文。</p>
+<h2 id="独立广场"><a href="#独立广场" class="headerlink" title="独立广场"></a>独立广场</h2><p><img src="http://b2-q.mafengwo.net/s12/M00/FA/86/wKgED1u-5j-AWfBHAA0uVt0Ewpo55.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>早晨去的时候广场外正好有游行，没看懂标语。。<br><img src="http://b3-q.mafengwo.net/s12/M00/FA/72/wKgED1u-5jaAcQspAAbEi8bUdZQ18.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="http://p2-q.mafengwo.net/s12/M00/FA/87/wKgED1u-5kCAP3dcAAuh8H5tlfw56.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>国家纪念碑还是挺雄伟的，听说顶端那个是有金子做的。</p>
+<h2 id="中央公园"><a href="#中央公园" class="headerlink" title="中央公园"></a>中央公园</h2><p><img src="https://n1-q.mafengwo.net/s12/M00/FA/82/wKgED1u-5j2AG5TCAAcxQSIhgtE57.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="https://p1-q.mafengwo.net/s12/M00/FA/83/wKgED1u-5j6AaqyyAAhaTnE3YvQ97.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>中央公园是 雅加达 最大的综合商场之一吧。算是最繁华的地带，晚上灯光很美。</p>
+<h2 id="千岛群岛"><a href="#千岛群岛" class="headerlink" title="千岛群岛"></a>千岛群岛</h2><p>雅加达 北面海上点缀着几百个岛屿，有些是私人岛有些是居民岛。比较有名也比较美的几个岛屿：Palua，Pari，Sepa。可惜的是我都没有去，我跟着我们同事大部队去的是一个叫pramuka的居民岛，岛上虽然垃圾挺多，但海水清晰度还是赛过国内任何一个岛屿。 雅加达 湾上面的岛其实海水都挺好的，我们路过近海的ayer岛，从游艇上一眼望去都被惊艳到了。</p>
+<p>刻骨铭心的是，去的一路上真的是差点被浪拍晕过去。因为我们都没经验，坐在了游艇上面一层，而这艘游艇上面没有窗户。刚开始开的时候都还兴奋的张来望去，开着开着就受不了海浪的冲击，浪花沿着船舷直接拍上来，无人能幸免。等到了岛上，我们有个同事甚至已经晕过去了，缓了好久才缓回来。回程都聪明的坐在了下层   。回去后我也差点感冒高烧。<br><img src="https://p3-q.mafengwo.net/s12/M00/FA/7F/wKgED1u-5juAB07YAAxDdAGBLdA95.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>ayer岛<br><img src="https://n3-q.mafengwo.net/s12/M00/FA/7B/wKgED1u-5jqANMueAAekgiPdwfU76.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="https://n3-q.mafengwo.net/s12/M00/FA/76/wKgED1u-5jiAF0egAA0YL-bHCqw81.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="https://b1-q.mafengwo.net/s12/M00/FA/74/wKgED1u-5jeAaQrNAAqi9hB8pV871.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="https://p3-q.mafengwo.net/s12/M00/FA/76/wKgED1u-5jiAR2ffABLWrQdH-1M84.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="https://p3-q.mafengwo.net/s12/M00/FA/78/wKgED1u-5jmADphFABHklWpsnLo08.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="https://b3-q.mafengwo.net/s12/M00/FA/79/wKgED1u-5jqAKLb4AA70UvDKfns07.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="https://n4-q.mafengwo.net/s12/M00/FA/75/wKgED1u-5jeAa39WAAlqTakHAAM67.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="https://p4-q.mafengwo.net/s12/M00/FA/73/wKgED1u-5jaAFDKEAAjKOsV1jEQ93.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>岛上景色还是很美的，尤其是海水，海水中还有树立的几丛水草，可以望见水底。这种海水在国内可以说已经绝迹了，在印尼这边却是很常见的。</p>
+<p><img src="https://n2-q.mafengwo.net/s12/M00/17/67/wKgED1u-8xuAIJRWAAaOpBMVIBg87.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="https://b4-q.mafengwo.net/s12/M00/17/6A/wKgED1u-8xuARS1vAAZ3qjnwZLI50.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="https://b1-q.mafengwo.net/s12/M00/17/6B/wKgED1u-8xyAOo61AAgPXCjj8Qs40.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>南航回程的餐食相比去程还是不错的，有面包有水果有牛肉饭还有红酒。</p>
+]]></content>
+      <categories>
+        <category>旅行</category>
+      </categories>
       <tags>
-        <tag>随笔</tag>
+        <tag>旅行</tag>
+        <tag>东南亚</tag>
       </tags>
   </entry>
   <entry>
@@ -330,92 +438,6 @@
       <tags>
         <tag>旅行</tag>
         <tag>国内</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>原汁原味黔东南</title>
-    <url>/chenxijia.githup.io/2018/11/21/%E5%8E%9F%E6%B1%81%E5%8E%9F%E5%91%B3%E9%BB%94%E4%B8%9C%E5%8D%97/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\chenxijia.githup.io\assets\css\APlayer.min.css"><script src="\chenxijia.githup.io\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\chenxijia.githup.io\assets\js\Meting.min.js"></script><p>从昆明向东过来，我预选的目的地有两个，都匀和凯里。到都匀的话去荔波比较方便，到凯里的话去看黔东南苗寨比较方便。考虑到荔波在南边，而且交通不是很方便（目前正在建凯里到荔波的大路，建成后大巴过去还是挺方便的），如果从都匀过去的话也会浪费几天时间，所以就留下了这一程最遗憾的一点，就是没能去荔波看看喀斯特地貌（其实来之前我对荔波已经做足了攻略）。好在这一点遗憾马上就被朗德和镇远给弥补了。</p>
-<a id="more"></a>
-
-<h2 id="朗德苗寨"><a href="#朗德苗寨" class="headerlink" title="朗德苗寨"></a>朗德苗寨</h2><p>相较于西江千户苗寨的喧嚣与商业化，朗德苗寨则显得安静许多，它很多地方也保留了原汁原味的苗族特色。例如十二道拦路酒，例如手工制作苗族银首饰。这也是我考虑再三都想去的原因。虽然餐饮住宿和西江千户比起来差很多，夜景应该也要差很多，但我觉得苗寨应当是原生的才最值得一去。 去朗德苗寨很方便，可以从凯里汽车站坐中巴直接过去，从早上7点开始，大约2小时一班，来回都是10块钱，平时没什么人，基本都是当地人在来回。中巴是沿着山路盘旋开上去的，一路上经过南花苗寨和季刀苗寨，都是很原生，小众安静的苗寨，山顶云雾缭绕，溪水在村寨门口流过，苗族姑娘在溪边拍打衣服，这种场景绝对令每个游客都神往，路上遇到美好的画面可以让司机停下然后下车逛逛，坐下一班再去朗德。班车从汽车站大概一个小时到朗德，我来的时候正好旅游淡季，下了中巴，感觉整个苗寨都是属于自己的。也有游客中心啥的设施，但朗德还是保留着大部分完整的味道。 下了中巴往大寨门口走进去是朗德下寨，可以随便逛逛，最美的是朗德上寨，需要沿着公路自己走过去大概几百米，或者可以坐游览车过去。我当时走错了，把上面有个什么雷寨错当成朗德上寨了，后来从山上走下来，多花费了不少力气。注意，朗德上寨和下寨中间隔了一段公路的，你可以沿着下了车后的大寨门下面的溪水，一路走过去。</p>
-<p><img src="http://n2-q.mafengwo.net/s12/M00/AD/86/wKgED1v1GqGAYrw8AAZ5mz4afSc22.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"></p>
-<p>下寨到上寨的这段路，风景也不错，主要是溪水潺潺。</p>
-<p><img src="http://n2-q.mafengwo.net/s12/M00/AD/88/wKgED1v1GqOAAmIVAAfCH-6tBis04.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"></p>
-<p><img src="http://b1-q.mafengwo.net/s12/M00/AD/8B/wKgED1v1GqWAGlJOAAwE9jqC2D457.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br>这就是朗德上寨，门口有个石牌，因为08年的时候奥运圣火也经过这儿，所以雕刻着圣火和奥运五环。<br><img src="http://b2-q.mafengwo.net/s12/M00/AD/8E/wKgED1v1GqeAWzELAAq6KghKmug12.jpeg?imageView2/2/w/700/h/600/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br>朗德上寨的表演场，上午10点左右和下午3点多各有一场表演的。<br><img src="http://b1-q.mafengwo.net/s12/M00/AD/90/wKgED1v1GqmAUOm4AAobpiwu7xY70.jpeg?imageView2/2/w/700/h/600/q/90%7CimageMogr2/strip/quality/90" alt="image.png"></p>
-<p><img src="http://b4-q.mafengwo.net/s12/M00/AD/91/wKgED1v1GqqAOPIWAAuJYr3Ngy477.jpeg?imageView2/2/w/700/h/600/q/90%7CimageMogr2/strip/quality/90" alt="image.png"></p>
-<p>以上便是朗德上寨的风光了，从朗德回凯里的班车最迟是傍晚4点半。如果错过了就选择住在寨里吧，客栈也是有不少的。整体来讲，朗德就是一个正转型旅游化但尚且少为人知的一个小村寨。</p>
-<h2 id="镇远古镇"><a href="#镇远古镇" class="headerlink" title="镇远古镇"></a>镇远古镇</h2><p>镇远，相较于朗德，知名度就大了很多，交通餐饮住宿十分齐全，火车站汽车站公交，样样齐全，每天都有来自四面八方的游客为它而来。位于舞阳河畔，四周皆山。河水婉婉，这里的古建筑群依山傍水，这里的居民每天过得十分惬意。镇远古镇是属于那种虽然被人声打扰，但却更显韵味的地方。<br><img src="http://p3-q.mafengwo.net/s12/M00/AD/92/wKgED1v1GqyAC57vAAYXapodWRA37.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="http://b3-q.mafengwo.net/s12/M00/AD/B8/wKgED1v1GsuARaW1AAdswBJlKhk91.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="http://b1-q.mafengwo.net/s12/M00/AD/95/wKgED1v1Gq2AITtdAAuWkTIH8TU95.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="http://p1-q.mafengwo.net/s12/M00/AD/98/wKgED1v1Gq-AAY0vAA_EWekUuJY13.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="http://n3-q.mafengwo.net/s12/M00/AD/9B/wKgED1v1GrKAK5__AA8tMU9kaXo27.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br>夜色中的镇远灯火相映，辉煌如画，仿佛代表了整个黔东南，想向你慢慢诉说这里的故事。这里的小吃特产，你都能随手在街上选出一家店来去细细品尝。<br><img src="http://b3-q.mafengwo.net/s12/M00/AE/A9/wKgED1v1G3mAS-5bAAn9-dWphu413.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="http://p3-q.mafengwo.net/s12/M00/AE/AB/wKgED1v1G3uAKj5RAAtE20kJn_011.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="http://b2-q.mafengwo.net/s12/M00/AE/AE/wKgED1v1G3yAVnx7AAjGF9W5MWU57.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"></p>
-<p>白天，日光下的镇远脱去了夜晚闪耀的礼服，露出它安静温婉的一面，碧绿的舞阳河水映出她的脸庞。这里的居民每天跳跳舞下下棋钓钓鱼，好不快活！</p>
-]]></content>
-      <categories>
-        <category>旅行</category>
-        <category>国内</category>
-      </categories>
-      <tags>
-        <tag>旅行</tag>
-        <tag>国内</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>大美湘西</title>
-    <url>/chenxijia.githup.io/2018/11/21/%E5%A4%A7%E7%BE%8E%E6%B9%98%E8%A5%BF/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\chenxijia.githup.io\assets\css\APlayer.min.css"><script src="\chenxijia.githup.io\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\chenxijia.githup.io\assets\js\Meting.min.js"></script><p>为什么先写这篇？因为湘西是我云贵湘之行的最后一站，刚出怀化火车站，我对它的印象是很差的，首先是有很多莫名其妙的人会把你围得透不过气，各种请你住宿吃饭打车，甚至我在怀化汽车站上厕所还向我收费（我当然没有给）。之后我去了凤凰古镇，到的时候正好是晚上，周遭一片漆黑，只有中心地带比较热闹，古镇里还有小女孩强行推销鲜花，和苗族姑娘拍照也得收费。这是湘西给我的第一印象。就是商业化太严重了，我想，也或许是当地经济比较差的缘故吧。。这和政府在城市整治这方面有脱不开的关系。不过抛开这些不谈，整个湘西的风景还是值得一去的。</p>
-<a id="more"></a>
-
-<h2 id="凤凰古镇"><a href="#凤凰古镇" class="headerlink" title="凤凰古镇"></a>凤凰古镇</h2><p>到凤凰古镇有两个交通方式，一个是从怀化坐大巴，一个是从吉首坐大巴。凤凰并没有火车站，所以这两种方式其实都差不多都走的是高速，就看你从哪里方便了。由于我是从镇远古镇过来的，考虑到如果坐火车到吉首就是凌晨了不是很方便，而且逛完还得原路返回，所以我就直接从镇远坐火车到怀化，怀化再坐大巴去凤凰。怀化汽车西站离火车站很近，坐大巴大概一个多小时就到凤凰了。 我到凤凰已经是傍晚了，在这要注意，凤凰古镇的公共交通是很不方便的，一路走过去你可能找了好久也没有找到公交站牌在哪里，听说一路车是可以直接到凤凰古镇，不知道为啥，我等了很久也没有来，所以在凤凰古镇我唯一用到的交通工具是我的脚，当然你也可以打的或者和别人拼车过去，大概5块钱的样子，其实从汽车站走过去对于我这种习惯于徒步的人来说也算是近的，才2公里左右。 进了凤凰古镇，我差点以为我走错地方了。因为灯光实在是太暗，而且和网上看到的照片相差太远了吧。后来问了下客栈老板娘，说是旅游淡季就没全部开灯。晚上的景色确实是不如镇远古镇。</p>
-<p><img src="http://p4-q.mafengwo.net/s12/M00/A5/00/wKgED1vyru6AZlrrAAa-nzE3IJ066.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br>有灯光的地方都是一群中老年人挤着在拍照。</p>
-<p>晚上逛了一圈看到这样的景象我便瞬间没了兴致，回客栈洗洗睡了。古城内的客栈还是很多的，价格也相对合理，怕被坑就从网上订，网上订的就要跟着地图找具体位置了。</p>
-<p>第二天早上起来我就又去逛了，看到和昨晚截然不同的景象。。白天的凤凰古城还是挺美的哈。</p>
-<p><img src="http://p2-q.mafengwo.net/s12/M00/8E/AB/wKgED1vyleSALkumAAc2lE1m4Wc32.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="http://b1-q.mafengwo.net/s12/M00/F3/2A/wKgED1vzPceAMQHYAAhrnYVoMBc47.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="http://n1-q.mafengwo.net/s12/M00/F3/2A/wKgED1vzPciAbNdXAAlCJEqZ-zc60.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="http://n3-q.mafengwo.net/s12/M00/F5/9A/wKgED1vzTDOAa3pXABdhHzPSgb046.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="http://n2-q.mafengwo.net/s12/M00/F5/9A/wKgED1vzTDSAboeMAAjv-YEdsOU76.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"></p>
-<p>整个古城不大，半天就能逛完，一条沱江将它分隔成一南一北。可以沿着沱江来回走一圈。江上有条石块搭成的小道，拍照的人挺多的，远看就像是走在江上，不过要注意安全小心别掉下去，沱江的水流还是很急的。</p>
-<p>一路往东走可以看到湘西吊脚楼，排列在水上十分优雅。还能看到南华山上云雾缭绕，晴天是看不到的，阴雨天来凤凰正好，雾蒙蒙，多了一份朦胧感。</p>
-<h2 id="张家界国家森林公园"><a href="#张家界国家森林公园" class="headerlink" title="张家界国家森林公园"></a>张家界国家森林公园</h2><p>来到湘西当然不可错过张家界，从凤凰古城过去还是很方便的，有直达的大巴，80元，也可以先花25元坐大巴到吉首，吉首再坐火车20元去张家界。我是选了后者，因为没去过吉首，正好一路过去看看，也相对便宜。</p>
-<p>张家界有两个大型森林公园，需要区分开来。一个是天门山国家森林公园，坐索道就能直接到的，上面还有网红玻璃栈道，天门山索道离火车站很近，就在火车站出来再左转的大庸路上，索道缆车在火车站就能看到了，很长，有七千多米，是世界上最长的高山客运索道。比较适合文艺青年打卡，由于我这趟并没有去，所以无法深入介绍了。而且我觉得性价比不高，全程索道上下所以爬山乐趣也没了。另外一个就是我这次去的张家界国家森林公园，因为在武陵源区，所以也叫武陵源风景名胜区，这是张家界最出名的一个地方，比天门山要大好几倍，可玩性也大很多，如果背包客不到这个地方来算是白来张家界了。</p>
-<p>虽然我在张家界森林公园只玩了两天，但是已经把里面的交通以及路线全部搞清楚了，每个大景点也一一走过。接下来我会将我所知道的全部告诉你，我还有一个安排得很好的路线分享，可以让你在最短的时间玩遍张家界。好了，废话不多说。</p>
-<p><img src="http://b2-q.mafengwo.net/s12/M00/42/44/wKgED1vznUqAQ6cUAAGMx5fvYVs36.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br>首先，张家界国家森林公园（以下简称张家界）的门票口总共有五个，除了上图中三个（森林公园，天子山，武陵源），其他在杨家界有个门票站，水绕四门下面也有一个。从火车站到张家界的班车只能去这三个门票站，车程一个小时左右，都是10来块钱。</p>
-<p>这三个口相对来说，武陵源门票口最繁华，住宿吃饭的都很多，物价也相对便宜。天子山其次，森林公园就比较少了。我的路线是从森林公园进，天子山住宿一夜，武陵源出。当然你也可以反过来，也可以武陵源作为住宿站。但我不建议森林公园作为住宿站，因为查了一下，天子山和武陵源的客栈都比森林公园要便宜要多。网上也有说把丁香榕村作为住宿站点的，其实那边的客栈相对来说也贵，我个人觉得要是你想看日出日落那可以选择住那边。</p>
-<p>下面说说各个景点和交通，这里面除了金鞭溪需要步行之外，其它都是可以通过景区环保车或索道或天梯去周转到达。（景区大门票225，和指纹绑定，4日内可以随便进出，包含了景区环保车，但不包括其它索道啥的）</p>
-<p>黄石寨，金鞭溪和袁家界我认为可以连在一起逛完，因为黄石寨是独立的一个景点，上面还是值得一去的，可以上去绕一圈看看五指峰什么的，上下都有索道，步行爬上去得一个小时，也可以上去索道下来步行，但我不建议爬上去，首先这会耗费大量体力，影响到之后逛金鞭溪。黄石寨索道下站到森林公园门票口都有环保车，逛完之后回来，然后沿着金鞭溪走，一路上景色很美，还能看到猴子们在溪水边嬉戏，走到千里相会是一个分叉口，可以选择爬上乱窜坡直到袁家界，也可以选择继续沿着金鞭溪走，走到水绕四门，然后坐环保车去百龙天梯，百龙天梯直接到袁家界。逛完袁家界就没多少力气了，坐环保车去天子山门票口或者丁香榕村住宿吧。当然，我这是按两天的行程来安排的，你也可以放慢节奏，到了水绕四门直接坐环保车出武陵源口找住宿。</p>
-<p>至于杨家界，可以安排到和天子山一起逛。因为杨家界里面的天波府爬起来还是很费力的，一路上都是怪石嶙峋，其中一条两石壁中间的路很窄。逛完杨家界应该也比较累了，坐上环保车去天子山索道站，逛一下贺龙公园看一下贺龙元帅铜像就坐索道下山，如果要爬下来也是很费力的，据说有7千多阶。坐索道下来时的风景很赞，可以近距离观赏张家界地貌。下来后还有精力的话就坐环保车去看看十里画廊，没精力了就直接出武陵源口，去张家界火车站大巴要去武陵源汽车站坐，需要向前走500米左右到汽车站，到此，一天的行程也就结束了。</p>
-<p>以上，按照两天行程的安排，每个景点都逛了，如果觉得太赶，可以适当拆开来，也不会太累。</p>
-<p>下面放照片(微笑)</p>
-<p><img src="http://n3-q.mafengwo.net/s12/M00/94/94/wKgED1vz1UWAZ6CVAAT41H9BUgo18.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br>黄石寨的风光是连张信哲都在坐过之后称赞不已的。<br><img src="http://p2-q.mafengwo.net/s12/M00/94/9A/wKgED1vz1UyALo88AAcEmj-Wjh878.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="http://p3-q.mafengwo.net/s12/M00/94/9E/wKgED1vz1VGAWFnKAAYIepCyOZw70.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br>上面两张是黄石寨上面的风光。<br><img src="http://n1-q.mafengwo.net/s12/M00/6F/AE/wKgED1v0-MaAXJWJAAoyTJ3tgt019.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br>张家界森林公园门口。<br><img src="http://n1-q.mafengwo.net/s12/M00/6F/B0/wKgED1v0-MiAZDC8AAvIifjo9LI54.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="http://n3-q.mafengwo.net/s12/M00/6F/B4/wKgED1v0-MqAXBizAAsDHPRknAw10.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br>以上是金鞭溪的风光。<br><img src="http://p3-q.mafengwo.net/s12/M00/6F/B8/wKgED1v0-MyAF3NAAAs8M5gAAGs16.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="http://p1-q.mafengwo.net/s12/M00/6F/BC/wKgED1v0-M6AFe9xAAtLX7hPD0093.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br>从乱窜坡上去之后，首先会看到第一张的指示牌，如果你从袁家界爬下来的话要注意向金鞭溪的方向走，至于迷魂台是袁家界里面一个小景点。再往上爬，出来就是一条公路，这条公路是给环保车行驶用的，往左边指示的方向走就是袁家界了。这上面还有个墓，我觉得挺神秘的，说这是啥龙脉地。<br><img src="http://b1-q.mafengwo.net/s12/M00/6F/BF/wKgED1v0-NGALwdkAAjuwwKWU_k29.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="http://p4-q.mafengwo.net/s12/M00/6F/C2/wKgED1v0-NOADNvaAAkzhhXraxI99.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br>阿凡达取景地。<br><img src="http://b3-q.mafengwo.net/s12/M00/6F/C4/wKgED1v0-NWAP9tvAAhGTpTpkSg78.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="http://b3-q.mafengwo.net/s12/M00/6F/C7/wKgED1v0-NeAe0alAAtStjgbkJM57.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br>以上都是袁家界的风光。<br><img src="http://p3-q.mafengwo.net/s12/M00/6F/CE/wKgED1v0-N6AeX5zAAp4ykrSBX085.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br>这张是杨家界天波府的风光，视野很开阔，只能拍全景照才能体现它的美。<br><img src="http://p3-q.mafengwo.net/s12/M00/6F/D1/wKgED1v0-N-AeBHRAAil20at-3837.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="http://b3-q.mafengwo.net/s12/M00/6F/D6/wKgED1v0-OOARVgxAAgdk4--aI885.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="http://p4-q.mafengwo.net/s12/M00/6F/D2/wKgED1v0-OGACmJ8AAonHmQjk_c15.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br>从杨家界进去到天波府的地势很艰险，而且越往后越艰险，其中一段路窄到只能允许一个人通过，因为我去的时候正好桥坏了，所以还得爬钢丝梯上去，老年人肯定是上不了天波府的。<br><img src="http://b4-q.mafengwo.net/s12/M00/84/11/wKgED1v1BM-AfT-iAAov_uDuVXM12.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="http://n2-q.mafengwo.net/s12/M00/84/14/wKgED1v1BNGAX0TgAAZ1KYZFqdU21.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br>天子山上的贺龙公园。<br><img src="http://b4-q.mafengwo.net/s12/M00/84/18/wKgED1v1BNOAHGUBAAgTLtT9en874.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br>从天子山下去坐索道一路能看到不一样的景色，近距离观看红色的岩壁，繁茂的植被，能最大限度的还原张家界地貌。这也是我为什么推荐坐索道下去的一大原因。<br><img src="http://n3-q.mafengwo.net/s12/M00/84/1E/wKgED1v1BNWAN3hYAAqhFitoj3c49.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="https://n1-q.mafengwo.net/s12/M00/84/28/wKgED1v1BNqAQ4uaAAjWtadLhzY20.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="https://p2-q.mafengwo.net/s12/M00/84/2D/wKgED1v1BNyAD_W7AAj_vRcQ41k20.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="https://n4-q.mafengwo.net/s12/M00/84/31/wKgED1v1BN6AfMnKAAiUyyWYHrc28.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br><img src="https://b2-q.mafengwo.net/s12/M00/84/34/wKgED1v1BOGAMQPeAAvZNMUCWSk94.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br>百龙天梯，世界上最高的户外电梯，世界第一梯。从山下到袁家界上面只要1分钟。<br><img src="https://p4-q.mafengwo.net/s12/M00/84/37/wKgED1v1BOKAIhSBAAbmMN7Om3434.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90" alt="image.png"><br>最后从武陵源门票口出，门口住宿吃饭的地儿都挺多的，走不远处有个汽车站可以买到回市里的票。</p>
-]]></content>
-      <categories>
-        <category>旅行</category>
-        <category>国内</category>
-      </categories>
-      <tags>
-        <tag>旅行</tag>
-        <tag>国内</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>雅加达出差记</title>
-    <url>/chenxijia.githup.io/2017/12/24/%E9%9B%85%E5%8A%A0%E8%BE%BE%E5%87%BA%E5%B7%AE%E8%AE%B0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\chenxijia.githup.io\assets\css\APlayer.min.css"><script src="\chenxijia.githup.io\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\chenxijia.githup.io\assets\js\Meting.min.js"></script><p>整理手机相册，发现还有一段回忆没整理，于是抽了这段闲暇时间把在 雅加达 的日子记录下来，希望有些经验也能帮到网友。</p>
-<p>年初，因为出差的缘故，有幸去 雅加达 体验了一个多月的风土人情。刚开始我是十分不习惯的，毕竟异国他乡之前都没呆过这么久，而且饮食交通没国内那么方便。好在之前去过 越南 ，知道 东南亚 国家都是这样的经济状况，没过几天也适应了，后来慢慢的发现，自己还是挺享受这种简单的生活。至于历史上的恩怨只是老一辈人的谈资，年轻人还是很友好的。</p>
-<a id="more"></a>
-
-<p><img src="http://n1-q.mafengwo.net/s12/M00/B5/0D/wKgED1u-vLqABzeqAAWxC2Wjvb497.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>机票是公司统一给订的，来回都坐的是南航， 广州 作为中转。还有是 香港 和 上海 也可以作为中转。<br><img src="http://b2-q.mafengwo.net/s12/M00/A9/05/wKgED1u-t1iADzNkAATwYrDRtq010.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>广州 白云机场看到一架 越南 航空，想起两年前春节 越南 游，哈哈~<br><img src="http://n3-q.mafengwo.net/s12/M00/A9/09/wKgED1u-t1mAWzTcAAa8n7HNKmE23.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>到达 雅加达 ，一股热带气息扑面而来，刚下 广州 脱了羽绒换上长袖外套，到 雅加达 看着机场外面接机的人群都是短袖，感觉有点格格不入：）因为是商务签，入境的时候需要交300元，美刀好像能便宜点，但同事几个身上都没带。到那边公司宿舍已经是当地11点了，吃了碗挂面洗洗睡。。<br><img src="http://b3-q.mafengwo.net/s12/M00/A9/0B/wKgED1u-t1mARwoJAAdPuM9jkzY74.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>早晨醒来，，感觉很多地方还是挺破的。整个 雅加达 就是贫富悬殊的城市布局，眼下是高楼大厦耸立着，走几步路或许就是土阶茅屋。</p>
-<h2 id="饮食"><a href="#饮食" class="headerlink" title="饮食"></a>饮食</h2><p><img src="http://n3-q.mafengwo.net/s12/M00/A9/0D/wKgED1u-t1qAI1WmAAfG7rFJqXo56.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>甲方公司怕我们吃不惯，都是提前约好让阿姨去买的，然后做好了带来，肉食基本都是这样鸡肉啊青蛙啊虾啊。味道是加了咖喱的那种，很独特。大肉大菜的吃得很饱。食堂里有之前那批人从国内带的老干妈和各种火锅调料，但我很少自己做着吃。<br><img src="http://b4-q.mafengwo.net/s12/M00/E4/AA/wKgED1u-2KGAf0-tAAkdQ8iPcOY33.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>这边的中式餐馆，菜品都挺贵的，不过味道比国内还好吃。<br><img src="http://b1-q.mafengwo.net/s12/M00/DE/FC/wKgED1u-1K2AFOUkAAfZ98hVKPs99.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>马路边走着看到一个老人在摆摊，于是坐下来吃了一碗，老人还很热心得递给我一碗红茶，我向他竖了下拇指就开吃了。下面是粥一样的东西，上面是虾片和鸡肉丝，在 雅加达 任何地方都能见到鸡肉的身影，炸鸡烤鸡很常见也很便宜，虾片也是当地一大特色。和 越南 一样，物价便宜，这碗东西折合人民币才5块钱。<br><img src="http://p3-q.mafengwo.net/s12/M00/E2/2A/wKgED1u-1uOAGVT5AAXxSFgmcgM78.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>有时候吃腻了公司统一提供的菜，下楼下的超市买个这种炸鸡套餐饭，折成人民币才7块钱。不过炸鸡得趁热好吃，去晚了就变得软了。</p>
-<p><img src="http://n4-q.mafengwo.net/s12/M00/DE/FF/wKgED1u-1K6ABefcAAe-5BJbPro31.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="http://p4-q.mafengwo.net/s12/M00/DE/FD/wKgED1u-1K6ADvjeAAeQgJ1tKrM14.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="http://p1-q.mafengwo.net/s12/M00/DF/00/wKgED1u-1LCABeA9AA0n069u8hY85.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>新年第一天跟着同事们一起去了baywalk mall，海港边的大商场，里面有新鲜的海味，可以自己挑好然后现做。每个人200人民币，还算是挺划算的。其中那个炸鱿鱼圈挺好吃的，哈哈当时还想当零食放点在兜里。<br><img src="http://b2-q.mafengwo.net/s12/M00/E4/A8/wKgED1u-2KCABVUvAAlE1WjHHz064.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="http://p3-q.mafengwo.net/s12/M00/E4/AB/wKgED1u-2KGATeSKAAgmxKtCeRg09.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="http://n2-q.mafengwo.net/s12/M00/E4/AD/wKgED1u-2KKAGXjOAAjlfdwMxZQ52.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>毕竟靠近赤道的城市，热带水果还是挺多的，唯一感到奇怪的是没见到榴莲和山竹，，本来还想多吃点国内贵的东西呢  </p>
-<h2 id="住宿"><a href="#住宿" class="headerlink" title="住宿"></a>住宿</h2><p><img src="http://n4-q.mafengwo.net/s12/M00/E4/AE/wKgED1u-2KOAC6J3AATySQ-vpfY43.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="http://p2-q.mafengwo.net/s12/M00/FA/80/wKgED1u-5jyANEeBAAxj1WihoIE28.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>公司健身房～<br><img src="http://b1-q.mafengwo.net/s12/M00/A9/14/wKgED1u-t1yAbGKLAAdg0BQvYHE35.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>这边的大厦很奇怪，汽车可以直接开上顶楼，有个像 盘山 公路一样的车道专门给汽车留着，而且停车库在楼上也有。</p>
-<h2 id="日常"><a href="#日常" class="headerlink" title="日常"></a>日常</h2><p><img src="http://p2-q.mafengwo.net/s12/M00/FA/81/wKgED1u-5jyAAdmNAAhCzqHkCho48.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="http://b4-q.mafengwo.net/s12/M00/A9/16/wKgED1u-t1yABDpwAAXAQPjiDWU90.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="http://n3-q.mafengwo.net/s12/M00/A9/17/wKgED1u-t12Afft9AAXGtYPZ6PM03.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>2017最后一天，鞭炮声不绝于耳，夜空都是烟花，很漂亮，路上骑摩托车的人们都停下来站在桥上看烟花。第一次在异国他乡跨年~<br><img src="http://n2-q.mafengwo.net/s12/M00/A9/12/wKgED1u-t1uAK0k5AAokyu9-2Ek86.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="http://p4-q.mafengwo.net/s12/M00/A9/19/wKgED1u-t12AaWJ_AAR3fIN-IBw80.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>ancol公园的码头，从这可以报旅行社去千岛群岛，到各个岛的都有，不过要去得早，8点多就没船去公主岛了。还要提前取现金，因为码头这唯一的一台ATM只支持visa。所以我没去成还摔了一跤（以下）</p>
-<p>有个周末特别想去千岛群岛玩，因为同事们都去近点的景点浪了， 我就打了个grab去ancol公园，准备报旅行社独自去岛上，还没到公园半路就不小心被摩托车撞了，所幸只是点皮肉伤无大碍。唉，人在外面一定要注意安全，回程途中还遇到一个插曲，想取钱但ATM坏了，然后卡被吞了，我用英语解释了半天旁边人都没听懂，后来幸好有个工作人员出来，说卡要工作日去拿，然后我就把钱提出放弃了那张卡  。注意，这边当地人基本都只会印尼语，说英语还不如说中文。</p>
-<h2 id="独立广场"><a href="#独立广场" class="headerlink" title="独立广场"></a>独立广场</h2><p><img src="http://b2-q.mafengwo.net/s12/M00/FA/86/wKgED1u-5j-AWfBHAA0uVt0Ewpo55.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>早晨去的时候广场外正好有游行，没看懂标语。。<br><img src="http://b3-q.mafengwo.net/s12/M00/FA/72/wKgED1u-5jaAcQspAAbEi8bUdZQ18.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="http://p2-q.mafengwo.net/s12/M00/FA/87/wKgED1u-5kCAP3dcAAuh8H5tlfw56.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>国家纪念碑还是挺雄伟的，听说顶端那个是有金子做的。</p>
-<h2 id="中央公园"><a href="#中央公园" class="headerlink" title="中央公园"></a>中央公园</h2><p><img src="https://n1-q.mafengwo.net/s12/M00/FA/82/wKgED1u-5j2AG5TCAAcxQSIhgtE57.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="https://p1-q.mafengwo.net/s12/M00/FA/83/wKgED1u-5j6AaqyyAAhaTnE3YvQ97.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>中央公园是 雅加达 最大的综合商场之一吧。算是最繁华的地带，晚上灯光很美。</p>
-<h2 id="千岛群岛"><a href="#千岛群岛" class="headerlink" title="千岛群岛"></a>千岛群岛</h2><p>雅加达 北面海上点缀着几百个岛屿，有些是私人岛有些是居民岛。比较有名也比较美的几个岛屿：Palua，Pari，Sepa。可惜的是我都没有去，我跟着我们同事大部队去的是一个叫pramuka的居民岛，岛上虽然垃圾挺多，但海水清晰度还是赛过国内任何一个岛屿。 雅加达 湾上面的岛其实海水都挺好的，我们路过近海的ayer岛，从游艇上一眼望去都被惊艳到了。</p>
-<p>刻骨铭心的是，去的一路上真的是差点被浪拍晕过去。因为我们都没经验，坐在了游艇上面一层，而这艘游艇上面没有窗户。刚开始开的时候都还兴奋的张来望去，开着开着就受不了海浪的冲击，浪花沿着船舷直接拍上来，无人能幸免。等到了岛上，我们有个同事甚至已经晕过去了，缓了好久才缓回来。回程都聪明的坐在了下层   。回去后我也差点感冒高烧。<br><img src="https://p3-q.mafengwo.net/s12/M00/FA/7F/wKgED1u-5juAB07YAAxDdAGBLdA95.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>ayer岛<br><img src="https://n3-q.mafengwo.net/s12/M00/FA/7B/wKgED1u-5jqANMueAAekgiPdwfU76.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="https://n3-q.mafengwo.net/s12/M00/FA/76/wKgED1u-5jiAF0egAA0YL-bHCqw81.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="https://b1-q.mafengwo.net/s12/M00/FA/74/wKgED1u-5jeAaQrNAAqi9hB8pV871.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="https://p3-q.mafengwo.net/s12/M00/FA/76/wKgED1u-5jiAR2ffABLWrQdH-1M84.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="https://p3-q.mafengwo.net/s12/M00/FA/78/wKgED1u-5jmADphFABHklWpsnLo08.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="https://b3-q.mafengwo.net/s12/M00/FA/79/wKgED1u-5jqAKLb4AA70UvDKfns07.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="https://n4-q.mafengwo.net/s12/M00/FA/75/wKgED1u-5jeAa39WAAlqTakHAAM67.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="https://p4-q.mafengwo.net/s12/M00/FA/73/wKgED1u-5jaAFDKEAAjKOsV1jEQ93.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>岛上景色还是很美的，尤其是海水，海水中还有树立的几丛水草，可以望见水底。这种海水在国内可以说已经绝迹了，在印尼这边却是很常见的。</p>
-<p><img src="https://n2-q.mafengwo.net/s12/M00/17/67/wKgED1u-8xuAIJRWAAaOpBMVIBg87.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="https://b4-q.mafengwo.net/s12/M00/17/6A/wKgED1u-8xuARS1vAAZ3qjnwZLI50.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br><img src="https://b1-q.mafengwo.net/s12/M00/17/6B/wKgED1u-8xyAOo61AAgPXCjj8Qs40.jpeg?imageView2/2/w/680/q/90%7CimageMogr2/strip/quality/90"><br>南航回程的餐食相比去程还是不错的，有面包有水果有牛肉饭还有红酒。</p>
-]]></content>
-      <categories>
-        <category>旅行</category>
-      </categories>
-      <tags>
-        <tag>旅行</tag>
-        <tag>东南亚</tag>
       </tags>
   </entry>
   <entry>
@@ -485,26 +507,6 @@
       <tags>
         <tag>旅行</tag>
         <tag>东南亚</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>手机摄影学习笔记</title>
-    <url>/chenxijia.githup.io/2016/09/07/%E6%89%8B%E6%9C%BA%E6%91%84%E5%BD%B1%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\chenxijia.githup.io\assets\css\APlayer.min.css"><script src="\chenxijia.githup.io\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\chenxijia.githup.io\assets\js\Meting.min.js"></script><h2 id="焦距"><a href="#焦距" class="headerlink" title="焦距"></a>焦距</h2><p>1.广角：28mm，长焦800<br>2.光圈</p>
-<a id="more"></a>
-
-<h2 id="构图基础"><a href="#构图基础" class="headerlink" title="构图基础"></a>构图基础</h2><p>1.机位（站在哪里）<br>2.视点（不正常的视角）<br>3.层次（近中远），拍海滩要有前景<br>4.简化<br>小景深，剪影，纯色背景，留白</p>
-<h2 id="构图进阶"><a href="#构图进阶" class="headerlink" title="构图进阶"></a>构图进阶</h2><p>1.立体透视：要么完全立体透视，要么完全平面化<br>2.对比：大小对比，动静对比，明暗对比，虚实对比，（贴在玻璃上就不会有反光）<br>3.质感<br>3.形式（中央，对称，重复，突变，框架）</p>
-<h2 id="平面构成"><a href="#平面构成" class="headerlink" title="平面构成"></a>平面构成</h2><p>1.点线面</p>
-<h2 id="软件"><a href="#软件" class="headerlink" title="软件"></a>软件</h2><p>procam，slowshutter,snapseed<br>黄金分割线<br>最佳兴趣点辅助线<br>黄金螺旋线</p>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>随笔</tag>
-        <tag>学习</tag>
-        <tag>摄影</tag>
       </tags>
   </entry>
 </search>

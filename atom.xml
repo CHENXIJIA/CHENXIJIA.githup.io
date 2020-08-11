@@ -6,7 +6,7 @@
   <link href="https://chenxijia.github.io/chenxijia.githup.io/atom.xml" rel="self"/>
   
   <link href="https://chenxijia.github.io/chenxijia.githup.io/"/>
-  <updated>2020-08-11T05:50:24.891Z</updated>
+  <updated>2020-08-11T16:15:38.463Z</updated>
   <id>https://chenxijia.github.io/chenxijia.githup.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>GIT工作流程、安装教程、常用命令</title>
+    <link href="https://chenxijia.github.io/chenxijia.githup.io/2020/08/12/Ayer%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E/"/>
+    <id>https://chenxijia.github.io/chenxijia.githup.io/2020/08/12/Ayer%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E/</id>
+    <published>2020-08-11T16:15:02.000Z</published>
+    <updated>2020-08-11T16:15:38.463Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\chenxijia.githup.io\assets\css\APlayer.min.css&quot;&gt;&lt;script</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://chenxijia.github.io/chenxijia.githup.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="技术" scheme="https://chenxijia.github.io/chenxijia.githup.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>helloworld</title>
@@ -131,33 +156,6 @@
     <category term="随笔" scheme="https://chenxijia.github.io/chenxijia.githup.io/tags/%E9%9A%8F%E7%AC%94/"/>
     
     <category term="生活" scheme="https://chenxijia.github.io/chenxijia.githup.io/tags/%E7%94%9F%E6%B4%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Ayer中文说明</title>
-    <link href="https://chenxijia.github.io/chenxijia.githup.io/2019/12/03/Ayer%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E/"/>
-    <id>https://chenxijia.github.io/chenxijia.githup.io/2019/12/03/Ayer%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E/</id>
-    <published>2019-12-03T05:26:02.000Z</published>
-    <updated>2020-08-08T13:21:54.000Z</updated>
-    
-    
-    <summary type="html">&lt;h1 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/Shen-Yu/hexo-theme-ayer&quot;&gt;Ayer&lt;/a&gt; 是一个干净且优雅的Hexo主题，自带响应式，加载速度很快，该有的功能都有，可配置项很多，非常适合作为你的博客主题，主题内还附送了6张精美的高清壁纸。欢迎使用和Star支持，如果你在使用过程中有任何疑问或者建议，欢迎联系我！如果你的博客采用了本主题，欢迎在下面评论区留下地址~&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/Shen-Yu/hexo-theme-ayer&quot;&gt;Ayer&lt;/a&gt; 在马来语中是“水”的意思，在西班牙语中是“昨天”的意思。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/Shen-Yu/cdn/picgo/ayer.jpg&quot; alt=&quot;hexo-theme-ayer&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/Shen-Yu/hexo-theme-ayer&quot;&gt;GitHub地址&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://gitee.com/shen-yu/hexo-theme-ayer&quot;&gt;国内镜像&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://shen-yu.gitee.io/&quot;&gt;效果预览&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://shen-yu.gitee.io/2019/ayer/&quot;&gt;中文说明&lt;/a&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="技术" scheme="https://chenxijia.github.io/chenxijia.githup.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-    <category term="技术" scheme="https://chenxijia.github.io/chenxijia.githup.io/tags/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
