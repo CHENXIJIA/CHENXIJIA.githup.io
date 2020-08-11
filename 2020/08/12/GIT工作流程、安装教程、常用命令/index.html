@@ -49,7 +49,7 @@
     <main class="content on">
       <section class="outer">
   <article
-  id="post-Ayer中文说明"
+  id="post-GIT工作流程、安装教程、常用命令"
   class="article article-type-post"
   itemscope
   itemprop="blogPost"
@@ -67,7 +67,7 @@
     </header>
      
     <div class="article-meta">
-      <a href="/chenxijia.githup.io/2020/08/12/Ayer%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E/" class="article-date">
+      <a href="/chenxijia.githup.io/2020/08/12/GIT%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B%E3%80%81%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%E3%80%81%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/" class="article-date">
   <time datetime="2020-08-11T16:15:02.000Z" itemprop="datePublished">2020-08-12</time>
 </a> 
   <div class="article-category">
@@ -79,7 +79,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">696</span>
+            <span class="post-count">722</span>
         </span>
     </span>
 
@@ -107,7 +107,8 @@
 <p>一般工作流程如下：<br>1．从远程仓库中克隆 Git 资源作为本地仓库。<br>2．从本地仓库中 checkout 代码然后进行代码修改<br>3．在提交前先将代码提交到暂存区。<br>4．提交修改。提交到本地仓库。本地仓库中保存修改的各个历史版本。<br>5．在修改完成后，需要和团队成员共享代码时，可以将代码 push 到远程仓库。</p>
 </blockquote>
 <p>下图展示了 Git 的工作流程：</p>
-<p>clonepushpull:fetch+mergecheckoutaddcommit远程仓库本地仓库工作区暂存区</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">graph LR</span><br><span class="line">A[长方形]</span><br><span class="line">A(远程仓库) --clone--&gt; B(本地仓库)</span><br><span class="line">B--push--&gt;A</span><br><span class="line">A--pull:fetch+merge--&gt;C</span><br><span class="line">B --checkout--&gt; C(工作区)</span><br><span class="line">C --add--&gt; D(暂存区)</span><br><span class="line">D--commit--&gt;B</span><br></pre></td></tr></table></figure>
+
 <h1 id="二-GIT安装教程"><a href="#二-GIT安装教程" class="headerlink" title="二.GIT安装教程"></a>二.GIT安装教程</h1><blockquote>
 <p>官网下载安装包：<a target="_blank" rel="noopener" href="https://git-scm.com/download">https://git-scm.com/download</a></p>
 </blockquote>
@@ -293,7 +294,7 @@
     <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAAD2CAAAAADAeSUUAAADKUlEQVR42u3aW47qQAwFQPa/aeb3SkzIsR2uiKfyhVCTdHUkLD8ej/h6vlz/fj/51esdXtcn3z8+cWFjY2PfhP18ex098mhl75jyo3y/PrFgY2Njb2X3bn3VJk62GDwlt2BjY2Njv08PouARh8CrUiNsbGxs7CTkXBXw3u8hWYONjY39N9lVRq803zum6n0urqVhY2Njfz073+73f/5IfxsbGxv7i9nP4nXVMeUlqkm4OlRgY2NjL2JXR2Tygk6vJZC3H/Kk5XAlNjY29gp2rwFwweDjuElcDZwX9D2wsbGxv5KdB6ek+Zps+v3h9tbke/glbmNjY2PfnF1NHvJxnOi8B+3bPL05yb2wsbGx17GrW0wC2/8pKhXw2NjY2KvZSVGpF/DygyjnUtWXhI2Njb2OPSnrV8dr8k1P1p/gsbGxsRexk7GbHF8d38lbDr3xoJOV2NjY2IvY1cJ9ctPqqM1knKha0sLGxsbeys4DSR7AqsGv106ofo+NjY29id273TzByFu2k7TncCU2Njb2InZvQ5PEIznifE0+NnSYe2FjY2PfnN0bx+mFjWgssnUQ5REfbGxs7HXs3u3KJfhiqWiS8DQ7IdjY2Ng3ZyebmDR3q42EXlM5ajBgY2NjL2L3tttLQqqkSakrOhRsbGzsReyEV12ZFI/mDYZqYxgbGxt7HzvnVYtNSXqTB85q2DtpP2BjY2OvY/dKM5OiT36gvSM4+RU2Njb2Unb+42rLtlpm6jUSCi8DGxsbexF7UtCZHNakOJWPFjUx2NjY2Ddk5yWkPA3IA1hv0Gc0rIONjY29jp383SePr5aKesFsHvCwsbGxd7N7QaLXGJ6we5nFYwLDxsbG/np2nnLkScukDNTMqOIXho2Njb2D/Sxe1SBXHcG5Ko0ptASwsbGxb87Orx6+2nLopSJJs6F5KNjY2Ng3YVeDVrV4VC0k9djlo8TGxsZexy7Xoi4d0MkP+rKUAxsbGxt7kAbknyfFrJMXho2Njf3n2XmJp1fi743+FJoH2NjY2OvYvQf3ykNVcN7QLYRAbGxs7EXsSQWm2jz4RLEp3yE2Njb2OvYPFCkhTDULgXUAAAAASUVORK5CYII=" alt="微信分享二维码">
+      <img src="data:image/png;base64,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" alt="微信分享二维码">
     </div>
 </div>
 
